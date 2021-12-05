@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="horizontal" >
+
+    <!-- 两行 -->
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="10010"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="全部"
+            android:textColor="#4C6AA2"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <!-- 删除 -->
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/delete_btn_selector" />
+
+</LinearLayout>

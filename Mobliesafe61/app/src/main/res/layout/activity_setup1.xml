@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="1.欢迎使用手机防盗" 
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="#8866ff00"
+        />
+    <!--  android:layout_margin="5dp"  距离上下左右的距离 -->
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="您的手机防盗卫士:"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sim卡变更报警"
+        android:textSize="18sp"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:gravity="center_vertical"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPS追踪"
+        android:textSize="18sp"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:gravity="center_vertical"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="远程数据销毁"
+        android:textSize="18sp"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:gravity="center_vertical"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="远程锁屏"
+        android:textSize="18sp"
+        android:drawableLeft="@android:drawable/star_big_on"
+        android:gravity="center_vertical"
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_online"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible"
+            />
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!-- android:layout_centerInParent="true" 居中显示 -->
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setup1"
+            android:layout_centerInParent="true"
+            />
+        <!--  android:layout_alignParentRight="true"  到父控件右方 
+        android:layout_alignParentBottom="true" 到父控件的下方
+        android:padding="5dp"  距离内边框的距离
+        -->
+        <Button 
+           style="@style/next"
+            />
+    </RelativeLayout>
+    
+    
+    
+    
+</LinearLayout>

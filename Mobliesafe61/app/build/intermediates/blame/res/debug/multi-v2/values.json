@@ -1,0 +1,120 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15,44,55,62,49,21,33",
+                        "startColumns": "4,4,1,1,1,1,1,1",
+                        "startOffsets": "191,522,1855,2247,2563,2035,768,1313",
+                        "endLines": "12,19,48,61,66,53,31,43",
+                        "endColumns": "12,12,9,9,9,9,9,9",
+                        "endOffsets": "481,759,2033,2561,2814,2241,1307,1852"
+                    },
+                    "to": {
+                        "startLines": "10,17,22,27,34,39,44,55",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "644,935,1173,1355,1674,1930,2140,2674",
+                        "endLines": "16,21,26,33,38,43,54,65",
+                        "endColumns": "12,12,9,9,9,9,9,9",
+                        "endOffsets": "930,1168,1350,1669,1925,2135,2669,3203"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "257,315",
+                        "endColumns": "57,55",
+                        "endOffsets": "310,366"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,5,7,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "103,58,157,280,210",
+                        "endColumns": "52,43,52,52,69",
+                        "endOffsets": "151,97,205,328,275"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "371,424,468,521,574",
+                        "endColumns": "52,43,52,52,69",
+                        "endOffsets": "419,463,516,569,639"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15,44,55,62,49,21,33",
+                        "startColumns": "4,4,1,1,1,1,1,1",
+                        "startOffsets": "191,522,1855,2247,2563,2035,768,1313",
+                        "endLines": "12,19,48,61,66,53,31,43",
+                        "endColumns": "12,12,9,9,9,9,9,9",
+                        "endOffsets": "481,759,2033,2561,2814,2241,1307,1852"
+                    },
+                    "to": {
+                        "startLines": "10,17,22,27,34,39,44,55",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "644,935,1173,1355,1674,1930,2140,2674",
+                        "endLines": "16,21,26,33,38,43,54,65",
+                        "endColumns": "12,12,9,9,9,9,9,9",
+                        "endOffsets": "930,1168,1350,1669,1925,2135,2669,3203"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "257,315",
+                        "endColumns": "57,55",
+                        "endOffsets": "310,366"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,5,7,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "103,58,157,280,210",
+                        "endColumns": "52,43,52,52,69",
+                        "endOffsets": "151,97,205,328,275"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "371,424,468,521,574",
+                        "endColumns": "52,43,52,52,69",
+                        "endOffsets": "419,463,516,569,639"
+                    }
+                }
+            ]
+        }
+    ]
+}

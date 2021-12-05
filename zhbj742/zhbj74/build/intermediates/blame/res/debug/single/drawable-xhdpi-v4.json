@@ -1,31 +1,15 @@
 [
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_wechatmoments.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_wechatmoments.png"
-    },
-    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_pinterest_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_pinterest_checked.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_shake_to_share_back.xml",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_shake_to_share_back.xml"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_flickr_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_flickr_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_vkontakte_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_vkontakte_checked.png"
-    },
-    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_youdao.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_youdao.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_kakaotalk.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_kakaotalk.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_googleplus.png",
@@ -40,40 +24,72 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_back_arr.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_pocket_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_pocket_checked.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_pocket.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_pocket.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_whatsapp_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_whatsapp_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_instapaper.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_instapaper.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\title_shadow.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\title_shadow.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_logo.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_logo.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_sinaweibo.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_sinaweibo.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_douban.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_douban.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_pocket.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_pocket.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_instagram.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_instagram.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_sinaweibo_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_sinaweibo_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_dropbox.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_dropbox.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_tencentweibo_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_tencentweibo_checked.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_actionbar_back_btn.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_actionbar_back_btn.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_list_item_back_top.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_list_item_back_top.9.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_qq.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qq.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_logo.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_logo.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_sohumicroblog.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_sohumicroblog.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_shortmessage.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_shortmessage.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_kakaostory_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kakaostory_checked.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_title_div.png",
@@ -84,14 +100,6 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_renren_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_editpage_image_remove.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_image_remove.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_instagram_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_instagram_checked.png"
-    },
-    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_kaixin_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kaixin_checked.png"
     },
@@ -100,8 +108,24 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_facebook.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_def_ad_image.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_def_ad_image.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_share_fail_cn.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_share_fail_cn.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_laiwangmoments.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_laiwangmoments.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_googleplus.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_googleplus.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_renren_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_renren_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_qzone.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_qzone.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_actionbar_ok_btn.png",
@@ -116,32 +140,28 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_whatsapp.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_foursquare.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_foursquare.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_evernote.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_evernote.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_btn_bg.9.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_btn_bg.9.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_result_back.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_result_back.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_def_avatar.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_def_avatar.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_vkontakte.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_vkontakte.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_mingdao_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_mingdao_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_back_nor.9.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\btn_back_nor.9.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_tumblr.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_tumblr.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_yixinmoments.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_yixinmoments.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_bluetooth_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_bluetooth_checked.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_wechatfavorite.png",
@@ -152,28 +172,24 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_yixin.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_evernote.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_evernote.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_flickr_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_flickr_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_shortmessage.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_shortmessage.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_sinaweibo.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_sinaweibo.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_dropbox_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_dropbox_checked.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_vkontakte_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_vkontakte_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_def_plat_logo.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_def_plat_logo.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_wechat.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechat.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_qq.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_qq.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_douban.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_douban.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_linkedin.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_linkedin.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_alipay.png",
@@ -184,12 +200,12 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\pin.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_facebook.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_facebook.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_instagram_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_instagram_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_wechat.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechat.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\light_blue_point.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\light_blue_point.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_sinaweibo.png",
@@ -200,96 +216,80 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixinmoments.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_plats_more.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_plats_more.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_bluetooth_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_bluetooth_checked.png"
-    },
-    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_sohumicroblog.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_sohumicroblog.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_kakaotalk_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kakaotalk_checked.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_shake_to_share_back.xml",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_shake_to_share_back.xml"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_sinaweibo_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_sinaweibo_checked.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_evernote.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_evernote.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_tencentweibo.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_tencentweibo.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\auth_follow_cb_unc.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\auth_follow_cb_unc.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\auth_title_back.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\auth_title_back.png"
-    },
-    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_evernote_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_evernote_checked.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_laiwang.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_laiwang.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_editpage_image_bg.9.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_image_bg.9.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_alipayshare.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_alipayshare.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_download_app.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_download_app.9.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_mingdao.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_mingdao.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_laiwangmoments.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_laiwangmoments.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_kaixin.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_kaixin.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\title_back.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\title_back.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\auth_follow_cb_chd.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\auth_follow_cb_chd.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_editpage_divider.9.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_divider.9.png"
-    },
-    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_wechat_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechat_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_linkedin.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_linkedin.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_linkedin_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_linkedin_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_share_fail_en.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_share_fail_en.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_tumblr_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_tumblr_checked.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_focused_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vpi__tab_selected_focused_holo.9.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_evernote.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_evernote.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_laiwangmoments_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_laiwangmoments_checked.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_holo.9.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vpi__tab_selected_holo.9.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_baidutieba.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_baidutieba.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_actionbar_back_btn.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_actionbar_back_btn.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_editpage_close.png",
@@ -300,36 +300,40 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_renren.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_list_item_back.9.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_list_item_back.9.png"
-    },
-    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_wechat.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_wechat.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_yixin.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixin.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_yixin.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_yixin.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_list_item_back_bottom.9.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_list_item_back_bottom.9.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_facebookmessenger_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_facebookmessenger_checked.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_yixin.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixin.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_email.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_email.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_kakaotalk_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kakaotalk_checked.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_kakaotalk.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kakaotalk.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_pocket.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_pocket.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_qq_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qq_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vpi__tab_selected_holo.9.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_instapaper.png",
@@ -344,6 +348,10 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\img_cancel.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_bluetooth.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_bluetooth.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_foursquare.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_foursquare.png"
     },
@@ -352,8 +360,20 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_laiwangmoments.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_laiwangmoments.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_linkedin_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_linkedin_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_editpage_image_bg.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_image_bg.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_yaoyiyao.png",
@@ -364,20 +384,28 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_tumblr.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_share_success_en.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_share_success_en.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_foursquare.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_foursquare.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_line_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_line_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_alipayshare_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_alipayshare_checked.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_holo.9.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vpi__tab_unselected_holo.9.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_tumblr.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_tumblr.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_back.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_back.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_sohusuishenkan_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_sohusuishenkan_checked.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_line.png",
@@ -396,12 +424,28 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_vkontakte.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pin.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\pin.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_instapaper.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_instapaper.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_facebookmessenger.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_facebookmessenger.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_tumblr_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_tumblr_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_editpage_divider.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_divider.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_alipayshare.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_alipayshare.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_qzone_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qzone_checked.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_qzone.png",
@@ -412,36 +456,32 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_share_fail_cn.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\title_shadow.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\title_shadow.png"
-    },
-    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_wechatfavorite_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechatfavorite_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_renren.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_renren.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_qq.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_qq.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_plats_more.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_plats_more.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_whatsapp_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_whatsapp_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_laiwangmoments_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_laiwangmoments_checked.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_def_app_logo.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_def_app_logo.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_instapaper.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_instapaper.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_flickr.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_flickr.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_wechatfavorite.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_wechatfavorite.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_flickr.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_flickr.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_laiwangmoments.png",
@@ -456,16 +496,8 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixinmoments_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_pocket.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_pocket.png"
-    },
-    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_download_app.9.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_download_app.9.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_share_success_cn.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_share_success_cn.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_mingdao.png",
@@ -480,20 +512,20 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_platform_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_title_back.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_title_back.png"
-    },
-    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_foursquare.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_foursquare.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_auth_title_back.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_auth_title_back.png"
-    },
-    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_focused_holo.9.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_alipayshare_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_alipayshare_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_title_div.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_title_div.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_editpage_bg.9.png",
@@ -502,10 +534,6 @@
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_email.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_email.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_neteasemicroblog.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_neteasemicroblog.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_plats_less.png",
@@ -520,12 +548,8 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_googleplus_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_mingdao_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_mingdao_checked.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_tencentweibo_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_tencentweibo_checked.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_wechatfavorite.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_wechatfavorite.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\edittext_back.9.png",
@@ -540,6 +564,650 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kakaostory.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_kaixin_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kaixin_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_neteasemicroblog_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_neteasemicroblog_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_shortmessage_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_shortmessage_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_laiwang.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_laiwang.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_def_app_logo.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_def_app_logo.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_baidutieba_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_baidutieba_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_pinterest.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_pinterest.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_facebook_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_facebook_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_bluetooth.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_bluetooth.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_facebookmessenger_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_facebookmessenger_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_kaixin.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kaixin.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_instagram.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_instagram.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_qzone.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qzone.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\blue_point.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\blue_point.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_qzone_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qzone_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_sohusuishenkan.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_sohusuishenkan.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_yixin_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixin_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_bluetooth.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_bluetooth.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_twitter.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_twitter.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_alipay.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_alipay.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_flickr.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_flickr.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_yixin_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixin_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_line_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_line_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_editpage_close.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_close.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_foursquare_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_foursquare_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_editpage_bg.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_bg.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_dropbox.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_dropbox.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_wechatmoments.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_wechatmoments.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_shake_to_share_back.xml",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_shake_to_share_back.xml"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_facebook.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_facebook.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_vkontakte_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_vkontakte_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_kakaotalk.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_kakaotalk.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_platform_checked_disabled.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_platform_checked_disabled.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_pocket_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_pocket_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_douban.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_douban.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_instapaper_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_instapaper_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_douban.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_douban.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_back_arr.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_back_arr.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_twitter.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_twitter.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_pocket.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_pocket.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_whatsapp.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_whatsapp.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_logo.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_logo.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_kakaostory_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kakaostory_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_plats_less.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_plats_less.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_kakaostory_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kakaostory_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_editpage_image_remove.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_image_remove.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_instagram_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_instagram_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_yixin.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixin.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_yixinmoments.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_yixinmoments.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_def_ad_image.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_def_ad_image.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_shortmessage.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_shortmessage.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\img_cancel.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\img_cancel.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_pocket_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_pocket_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_result_back.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_result_back.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_vkontakte.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_vkontakte.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_neteasemicroblog.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_neteasemicroblog.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_vkontakte.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_vkontakte.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_back_nor.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\btn_back_nor.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_tumblr.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_tumblr.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_platform_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_platform_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_yixinmoments.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_yixinmoments.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_pinterest_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_pinterest_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_youdao.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_youdao.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_evernote.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_evernote.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_shortmessage.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_shortmessage.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_youdao.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_youdao.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_whatsapp.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_whatsapp.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_dropbox_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_dropbox_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_def_plat_logo.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_def_plat_logo.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_tencentweibo.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_tencentweibo.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_qq.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_qq.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_douban.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_douban.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_wechatfavorite_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechatfavorite_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_facebook.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_facebook.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_wechat.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechat.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_bluetooth_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_bluetooth_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_plats_more.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_plats_more.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_email.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_email.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_kakaotalk_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kakaotalk_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_sinaweibo_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_sinaweibo_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_facebook.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_facebook.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_kakaostory.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kakaostory.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\auth_follow_cb_unc.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\auth_follow_cb_unc.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\auth_title_back.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\auth_title_back.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_mingdao.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_mingdao.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_laiwang.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_laiwang.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\auth_follow_cb_chd.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\auth_follow_cb_chd.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_alipayshare.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_alipayshare.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_laiwangmoments.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_laiwangmoments.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_back_nor.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\btn_back_nor.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_share_success_cn.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_share_success_cn.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_evernote_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_evernote_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_kakaostory.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_kakaostory.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_editpage_divider.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_divider.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_kakaotalk.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_kakaotalk.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_linkedin.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_linkedin.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_share_fail_en.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_share_fail_en.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_tencentweibo.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_tencentweibo.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_tumblr_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_tumblr_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_baidutieba.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_baidutieba.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_renren.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_renren.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_list_item_mask.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_list_item_mask.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_list_item_back.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_list_item_back.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_facebookmessenger_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_facebookmessenger_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_email.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_email.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_pinterest.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_pinterest.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_share_fail_en.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_share_fail_en.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_yixinmoments.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixinmoments.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\edittext_back.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\edittext_back.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_sohumicroblog_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_sohumicroblog_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_alipayshare_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_alipayshare_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_back.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_back.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_tumblr.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_tumblr.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_wechatmoments.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechatmoments.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_btn_bg.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_btn_bg.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_email.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_email.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_def_plat_logo.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_def_plat_logo.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_facebookmessenger.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_facebookmessenger.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\title_shadow.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\title_shadow.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_editpage_image_remove.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_editpage_image_remove.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_yaoyiyao.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_yaoyiyao.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_renren.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_renren.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_laiwangmoments_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_laiwangmoments_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_def_app_logo.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_def_app_logo.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_wechat_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechat_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_linkedin.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_linkedin.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_twitter_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_twitter_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_wechatfavorite.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_wechatfavorite.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_list_item_back_bottom.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_list_item_back_bottom.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_pocket.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_pocket.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_email_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_email_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_shortmessage_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_shortmessage_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_share_success_cn.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_share_success_cn.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_def_ad_image.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_def_ad_image.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_dropbox.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_dropbox.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_facebook_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_facebook_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_dropbox_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_dropbox_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_title_back.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_title_back.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_result_back.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_result_back.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_auth_title_back.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_auth_title_back.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_actionbar_ok_btn.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_actionbar_ok_btn.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_qq.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qq.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_googleplus.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_googleplus.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_mingdao.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_mingdao.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_title_back.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_title_back.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_line.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_line.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_googleplus_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_googleplus_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_neteasemicroblog.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_neteasemicroblog.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_line.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_line.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_twitter.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_twitter.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_mingdao_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_mingdao_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_flickr.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_flickr.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\auth_follow_cb_unc.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\auth_follow_cb_unc.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_tencentweibo_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_tencentweibo_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_wechatfavorite.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechatfavorite.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\auth_title_back.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\auth_title_back.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_sohusuishenkan.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_sohusuishenkan.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_douban_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_douban_checked.png"
     },
@@ -550,6 +1218,10 @@
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\blue_point.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\blue_point.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_auth_title_back.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_auth_title_back.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
@@ -564,44 +1236,48 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_bluetooth.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_wechatmoments_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechatmoments_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_kakaotalk.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kakaotalk.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_youdao.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_youdao.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_youdao_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_youdao_checked.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_sohumicroblog_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_sohumicroblog_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_shortmessage_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_shortmessage_checked.png"
-    },
-    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_whatsapp.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_whatsapp.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_baidutieba_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_baidutieba_checked.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_baidutieba_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_baidutieba_checked.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_kaixin.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_kaixin.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_facebook_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_facebook_checked.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_qzone.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qzone.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_instagram.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_instagram.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_vkontakte.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_vkontakte.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\light_blue_point.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\light_blue_point.png"
-    },
-    {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_qzone.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qzone.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_googleplus.png",
@@ -616,24 +1292,24 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_share_success_en.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_qzone_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qzone_checked.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_wechat.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_wechat.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_dropbox.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_dropbox.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_yixin_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixin_checked.png"
-    },
-    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_facebookmessenger.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_facebookmessenger.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_bluetooth.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_bluetooth.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_recomm_list_item_back.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_list_item_back.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\vpi__tab_unselected_pressed_holo.9.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_sohusuishenkan.png",
@@ -644,6 +1320,10 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_sohusuishenkan.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_renren.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_renren.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_tencentweibo.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_tencentweibo.png"
     },
@@ -652,8 +1332,8 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_kaixin.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_twitter.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_twitter.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_shortmessage.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_shortmessage.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_kakaostory.png",
@@ -662,6 +1342,14 @@
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_instapaper_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_instapaper_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_instagram.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_instagram.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_yixinmoments_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_yixinmoments_checked.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_pinterest.png",
@@ -676,28 +1364,44 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\ssdk_recomm_list_item_mask.9.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_flickr.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_flickr.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_baidutieba.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_baidutieba.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_wechatmoments.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_wechatmoments.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_youdao_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_youdao_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_foursquare_checked.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_foursquare_checked.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_facebookmessenger.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_facebookmessenger.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\logo_twitter.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\logo_twitter.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_douban_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_douban_checked.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_facebookmessenger.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_facebookmessenger.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_foursquare_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_foursquare_checked.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_wechatmoments_checked.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_wechatmoments_checked.png"
     },
     {
-        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_dropbox.png",
-        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_dropbox.png"
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_qq_checked.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-xhdpi\\skyblue_logo_qq_checked.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\skyblue_logo_instagram.png",

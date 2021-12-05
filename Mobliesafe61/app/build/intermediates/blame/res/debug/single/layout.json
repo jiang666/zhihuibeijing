@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_call_sms.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\item_call_sms.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clean_cache.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_clean_cache.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_app_unlock.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\fragment_app_unlock.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup4.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_setup4.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_app_cache.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\item_app_cache.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_contact.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\item_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup1.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_setup1.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test_visibile_gone.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\test_visibile_gone.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_kill_virus.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_kill_virus.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_process_manager.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_process_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup3.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_setup3.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_enter_pwd.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_enter_pwd.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settingview.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\settingview.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_app_lock.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\fragment_app_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_homesetting.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_homesetting.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_view.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\pop_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_loading.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\view_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_process_manager_set.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_process_manager_set.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_app_manager.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_app_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toast_custom.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\toast_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_setpassword.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\dialog_setpassword.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_add_blacknumber.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\dialog_add_blacknumber.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_home.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\item_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_process_detail.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\item_process_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dragview.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_dragview.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_scan_info.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\item_scan_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lostfind.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_lostfind.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settingclickview.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\settingclickview.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mywidget_view.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\mywidget_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_address.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_net_flow.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_net_flow.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_app_title.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\item_app_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contacts.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_app_detail.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\item_app_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_atools.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_atools.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_applock.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_applock.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_enterpassword.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\dialog_enterpassword.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setup2.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_setup2.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_call_sms.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\activity_call_sms.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_app_lock.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\layout\\item_app_lock.xml"
+    }
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/mywidget_view"
+    android:minHeight="40dp"
+    android:minWidth="250dp"
+    android:previewImage="@drawable/ic_launcher"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="86400000" >
+</appwidget-provider>
+<!-- minWidth最小宽度 -->
+<!-- minHeight最小高度 -->
+<!-- updatePeriodMillis 86400000  24小时   30分钟刷新    Serivce+Timer -->
+<!-- previewImage预览图 -->
+<!-- initialLayout添加桌面上的视图 -->
+<!-- resizeMode压缩 -->

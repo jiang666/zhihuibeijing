@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.itheima.mobliesafe61"
+        minSdkVersion 8
+        targetSdkVersion 17
+
+        /*testApplicationId "com.itheima.mobliesafe61"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"*/
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard-project.txt'
+        }
+    }
+
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.+'
+    compile files('libs/jpinyin-1.0.jar')
+    compile files('libs/RootTools.jar')
+    compile files('libs/xUtils-2.5.5.jar')
+}

@@ -1,0 +1,4 @@
+#Sun Nov 14 11:04:13 CST 2021
+base.0=C\:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

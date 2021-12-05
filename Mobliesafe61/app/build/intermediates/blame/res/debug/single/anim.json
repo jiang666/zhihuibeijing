@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cycle_7.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\anim\\cycle_7.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\anim\\resetup_pre_exit.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\anim\\resetup_pre_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\anim\\resetup_next_enter.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\anim\\resetup_next_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\anim\\resetup_next_exit.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\anim\\resetup_next_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\anim\\shake.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\anim\\shake.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\anim\\resetup_pre_enter.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\anim\\resetup_pre_enter.xml"
+    }
+]

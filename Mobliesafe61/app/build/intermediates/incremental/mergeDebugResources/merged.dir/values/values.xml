@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="com.itheima.mobliesafe61.ui.SettingView"><attr format="string" name="title"/><attr format="string" name="des_on"/><attr format="string" name="des_off"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">手机卫士61</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sample_device_admin">手机卫士</string>
+    <string name="sample_device_admin_description">手机卫士，远程操作</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- 去除标题栏 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="activity_title">
+		<item name="android:background">#ACFE76</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">25sp</item>
+	</style>
+    <style name="bottom_button_green">
+		<item name="android:background">@drawable/selector_contact_button</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+    <style name="default_listview" parent="android:Widget.Holo.Light.ListView">
+		<item name="android:cacheColorHint">@android:color/transparent</item>
+		<item name="android:divider">#4968A0</item>
+		<item name="android:dividerHeight">1dp</item>
+	</style>
+    <style name="listview_style">
+		<item name="android:cacheColorHint">@android:color/transparent</item>
+		<item name="android:divider">#4968A0</item>
+		<item name="android:dividerHeight">1dp</item>
+	</style>
+    <style name="next">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:text">下一步</item>
+	    <item name="android:layout_alignParentRight">true</item>
+	    <item name="android:layout_alignParentBottom">true</item>
+	    <item name="android:drawableRight">@drawable/next</item>
+	    <item name="android:background">@drawable/button</item>
+	    <item name="android:padding">5dp</item>
+	    <item name="android:onClick">next</item>
+	</style>
+    <style name="pre">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:text">上一步</item>
+	    <item name="android:layout_alignParentLeft">true</item>
+	    <item name="android:layout_alignParentBottom">true</item>
+	    <item name="android:drawableLeft">@drawable/previous</item>
+	    <item name="android:background">@drawable/button</item>
+	    <item name="android:padding">5dp</item>
+	    <item name="android:onClick">pre</item>
+	</style>
+</resources>

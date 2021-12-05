@@ -12,12 +12,36 @@
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png"
     },
     {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
     },
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
@@ -26,5 +50,9 @@
     {
         "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png",
         "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\zhbj74\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png",
+        "source": "D:\\BaiduNetdiskDownload\\itheimademo\\zhihuibeijing\\zhbj742\\viewPagerIndicatorLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png"
     }
 ]

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:text="高级工具"
+        android:textSize="22sp" />
+
+    <!-- 文本提示 -->
+
+    <TextView
+        android:id="@+id/progresstext"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="10%"
+        android:textSize="22sp" />
+
+    <!-- 进度提示 -->
+
+    <ProgressBar
+         android:visibility="gone"
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:max="100"
+        android:progress="20" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_contact_button"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:onClick="query"
+        android:text="查询号码归属地" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_contact_button"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:onClick="backup"
+        android:text="短信备份" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_contact_button"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:onClick="restore"
+        android:text="短信还原" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_contact_button"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:onClick="applock"
+        android:text="程序锁" />
+
+</LinearLayout>

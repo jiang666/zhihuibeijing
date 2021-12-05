@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp" >
+
+    <TextView
+        android:id="@+id/tv_homesetting_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="提示更新"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_homesetting_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_homesetting_title"
+        android:layout_marginLeft="5dp"
+        android:text="关闭提示更新"
+        android:textColor="#aa000000"
+        android:textSize="16sp" />
+	<!-- android:clickable="false"  是否可以点击，true：可以	fasle:不可以 
+	android:focusable="false" 是否可以获取焦点	true:可以		false:不可以
+	-->
+    <CheckBox
+        android:id="@+id/cb_homesetting_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp" 
+        android:clickable="false"
+        android:focusable="false"
+        />
+    <!-- android:layout_alignParentBottom="true"   设置到父控件的底部 -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="#77000000" />
+
+</RelativeLayout>

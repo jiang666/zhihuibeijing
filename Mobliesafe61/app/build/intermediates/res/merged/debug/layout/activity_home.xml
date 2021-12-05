@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<!-- android:layout_gravity="center"   控制父控件中控件的位置
+	layout_ :　必须得到父控件的允许才会生效
+	android:gravity="center" :　控件内的内容的位置
+	android:paddingTop="10dp" : 距离内边框的距离
+	 -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="功能列表" 
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="#8866ff00"
+        />
+    <!--  android:singleLine="true"  单行显示
+    android:ellipsize="start"  none：省略和面的文字   start省略前面的文字   middle省略中间的内容   end省略后面的文字   marquee滚动
+    android:marqueeRepeatLimit="marquee_forever" 永远滚动  -1
+    android:focusableInTouchMode="true"  触摸获取焦点
+    android:focusable="true"  是否获取焦点    true获取焦点   false不去获取焦点
+     -->
+    <com.itheima.mobliesafe61.ui.Home_TextView
+        android:id="@+id/tv_home_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手机卫士，64核处理器，超神速度，强力杀毒，新增考试功能，可反屏蔽，使用可增加升学几率"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        />
+    <!-- GridView  跟listview相似 
+    android:numColumns="3" 设置每行显示的个数
+    android:verticalSpacing="10dp" 设置每行距离
+    -->
+	<GridView 
+	    android:id="@+id/gv_home_gridview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:numColumns="3"
+	    android:verticalSpacing="10dp"
+	    android:layout_marginTop="10dp"
+	    ></GridView>
+</LinearLayout>

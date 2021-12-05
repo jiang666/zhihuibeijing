@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itheima.mobliesafe61">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    
+    
+    <!-- 读取  data/data/包 的数据 -->
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+
+    <!-- 删除 app/cache -->
+<!--     <uses-permission android:name="android.permission.DELETE_CACHE_FILES" /> -->
+
+    <!-- 全部清理 -->
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+
+    <!-- 终止进程 -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 挂断电话 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- 要求2.3 -->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <!-- 4.0 -->
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- 获取任务栈 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- targetPackage测试包名 id -->
+    <!--<instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.itheima.mobliesafe61" >
+    </instrumentation>-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- 引用 -->
+        <uses-library
+            android:name="android.test.runner"
+            android:required="true" />
+
+        <activity
+            android:name="com.itheima.mobliesafe61.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NetFlowActivity" >
+        </activity>
+        <activity android:name=".CleanCachActivity" >
+        </activity>
+        <activity android:name=".KillVirusActivity" >
+        </activity>
+        <activity android:name=".AToolsActivity" >
+        </activity>
+        <activity android:name=".ProcessManagerActivity" >
+        </activity>
+        <activity android:name=".PwdEnterActivity"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity android:name=".ProcessManagerSetActivity" >
+        </activity>
+        <activity android:name=".AppLockActivity" >
+        </activity>
+        <activity android:name=".AppManagerActivity" >
+        </activity>
+        <activity android:name=".CallSmsActivity" >
+        </activity>
+        <activity android:name=".HomeActivity" android:launchMode="singleTask" >
+        </activity>
+        <activity android:name=".HomeSetttingActivity" >
+        </activity>
+        <activity android:name=".LostFindActivity" >
+        </activity>
+        <activity android:name=".SetUp1Activity" >
+        </activity>
+        <activity android:name=".SetUp2Activity" >
+        </activity>
+        <activity android:name=".SetUp3Activity" >
+        </activity>
+        <activity android:name=".SetUp4Activity" >
+        </activity>
+        <activity android:name=".SetBaseActivity" >
+        </activity>
+        <activity android:name=".ContactsActivity" >
+        </activity>
+<!--         <activity android:name=".AToolsActivity" > -->
+<!--         </activity> -->
+        <activity android:name=".AddressActivity" >
+        </activity>
+        <activity android:name=".DragViewActivity" >
+        </activity>
+
+        <service android:name="com.itheima.mobliesafe61.service.KeppAliveService" >
+        </service>
+        <service android:name="com.itheima.mobliesafe61.service.WidgetUpdateService" >
+        </service>
+        <service android:name="com.itheima.mobliesafe61.service.CallSmsService" >
+        </service>
+
+        <receiver android:name="com.itheima.mobliesafe61.receiver.BootCompleteReceiver" >
+
+            <!-- priority  优先级   决定了接收到广播事件的顺序 -->
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" >
+                </action>
+            </intent-filter>
+        </receiver>
+        <!--
+             要想拦截成功，优先级必须大于0  
+        	优先级决定了广播接受者接受广播的顺序，优先级越大，越先接收到短信
+        -->
+        <receiver android:name="com.itheima.mobliesafe61.receiver.SmsReceiver" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.itheima.mobliesafe61.receiver.AdminReceiver"
+            android:description="@string/sample_device_admin_description"
+            android:label="@string/sample_device_admin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin_sample" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.itheima.mobliesafe61.service.GPSService" >
+        </service>
+        <service android:name="com.itheima.mobliesafe61.service.AddressService" >
+        </service>
+        <service android:name="com.itheima.mobliesafe61.service.AutoKillProcess" >
+        </service>
+        <service android:name="com.itheima.mobliesafe61.service.WatchDogService" >
+        </service>
+
+        <!-- MyAppWidget -->
+        <receiver android:name="com.itheima.mobliesafe61.receiver.MyAppWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/myapp_widget_provider" />
+        </receiver>
+    </application>
+
+</manifest>

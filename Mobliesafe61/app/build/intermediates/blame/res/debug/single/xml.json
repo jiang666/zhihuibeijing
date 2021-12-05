@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\xml\\device_admin_sample.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\xml\\device_admin_sample.xml"
+    },
+    {
+        "merged": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\build\\intermediates\\res\\merged\\debug\\xml\\myapp_widget_provider.xml",
+        "source": "C:\\Users\\jianglei\\AndroidStudioProjects\\Mobliesafe61\\app\\src\\main\\res\\xml\\myapp_widget_provider.xml"
+    }
+]

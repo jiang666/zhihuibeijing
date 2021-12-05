@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="4.恭喜您，设置完成" 
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="#8866ff00"
+        />
+    
+    <CheckBox
+            android:id="@+id/eb_setup4_protected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="你还没有开启防盗保护" />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_online"
+            />
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!-- android:layout_centerInParent="true" 居中显示 -->
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone"
+            android:layout_centerInParent="true"
+            />
+        <Button 
+            style="@style/pre"
+            />
+        <!--  android:layout_alignParentRight="true"  到父控件右方 
+        android:layout_alignParentBottom="true" 到父控件的下方
+        android:padding="5dp"  距离内边框的距离
+        -->
+        <!-- 在控件中使用样式文件有的属性，会把样式文件中属性的值覆盖 
+         android:drawableRight="@null"   @null:没有图片
+        -->
+        <Button 
+            style="@style/next"
+            android:text="设置完成"
+            android:drawableRight="@null"
+            />
+    </RelativeLayout>
+</LinearLayout>

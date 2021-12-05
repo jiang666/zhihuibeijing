@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 标题 -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ACFE76"
+        android:gravity="center"
+        android:text="病毒查杀"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- 雷达 -->
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_scanner_malware" />
+
+            <ImageView
+                android:id="@+id/act_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/act_scanning_03" />
+        </FrameLayout>
+        <!-- 进度显示 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="正在扫描:kuaibo"
+                android:textSize="20sp" />
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:max="100"
+                android:progress="30"
+                android:progressDrawable="@drawable/progressbar_layerlist" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 查杀报告 -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+         android:background="#4A68A1"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/report"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

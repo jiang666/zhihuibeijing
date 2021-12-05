@@ -1,0 +1,332 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:2:1-182:12
+INJECTED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:2:1-182:12
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\jianglei\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\fdfc39f0caaa89e615c76c062fd828c3\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:2:1-182:12
+	package
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\jianglei\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\fdfc39f0caaa89e615c76c062fd828c3\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\jianglei\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\fdfc39f0caaa89e615c76c062fd828c3\AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:7:9-38
+		INJECTED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:6:9-34
+		INJECTED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.GET_PACKAGE_SIZE
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.CLEAR_APP_CACHE
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:18:5-74
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:18:22-71
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:21:5-84
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:21:22-81
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:22:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:25:5-69
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:25:22-66
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:28:5-73
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:28:22-70
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:29:5-72
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:29:22-69
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:30:5-67
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:30:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:31:5-68
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:31:22-65
+uses-permission#android.permission.WRITE_CALL_LOG
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:33:5-73
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:33:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:34:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:35:5-84
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:35:22-81
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:36:5-75
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:36:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:37:5-81
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:37:22-78
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:38:5-67
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:38:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:40:5-70
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:40:22-67
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:41:5-79
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:41:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:42:5-79
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:42:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:43:5-81
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:43:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:44:5-66
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:44:22-63
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:45:5-81
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:45:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:46:5-78
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:46:22-75
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:49:5-68
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:49:22-65
+application
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:57:5-180:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\jianglei\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\fdfc39f0caaa89e615c76c062fd828c3\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\jianglei\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\fdfc39f0caaa89e615c76c062fd828c3\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:60:9-41
+	android:icon
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:59:9-45
+	android:allowBackup
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:58:9-35
+	android:theme
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:61:9-40
+uses-library#android.test.runner
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:64:9-66:39
+	android:required
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:66:13-36
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:65:13-47
+activity#com.itheima.mobliesafe61.SplashActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:68:9-76:20
+	android:label
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:70:13-45
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:69:13-67
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:71:13-75:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:72:17-69
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:72:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:74:17-77
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:74:27-74
+activity#com.itheima.mobliesafe61.NetFlowActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:77:9-78:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:77:19-50
+activity#com.itheima.mobliesafe61.CleanCachActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:79:9-80:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:79:19-52
+activity#com.itheima.mobliesafe61.KillVirusActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:81:9-82:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:81:19-52
+activity#com.itheima.mobliesafe61.AToolsActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:83:9-84:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:83:19-49
+activity#com.itheima.mobliesafe61.ProcessManagerActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:85:9-86:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:85:19-57
+activity#com.itheima.mobliesafe61.PwdEnterActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:87:9-89:20
+	android:launchMode
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:88:13-48
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:87:19-51
+activity#com.itheima.mobliesafe61.ProcessManagerSetActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:90:9-91:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:90:19-60
+activity#com.itheima.mobliesafe61.AppLockActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:92:9-93:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:92:19-50
+activity#com.itheima.mobliesafe61.AppManagerActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:94:9-95:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:94:19-53
+activity#com.itheima.mobliesafe61.CallSmsActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:96:9-97:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:96:19-50
+activity#com.itheima.mobliesafe61.HomeActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:98:9-99:20
+	android:launchMode
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:98:48-79
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:98:19-47
+activity#com.itheima.mobliesafe61.HomeSetttingActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:100:9-101:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:100:19-55
+activity#com.itheima.mobliesafe61.LostFindActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:102:9-103:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:102:19-51
+activity#com.itheima.mobliesafe61.SetUp1Activity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:104:9-105:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:104:19-49
+activity#com.itheima.mobliesafe61.SetUp2Activity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:106:9-107:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:106:19-49
+activity#com.itheima.mobliesafe61.SetUp3Activity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:108:9-109:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:108:19-49
+activity#com.itheima.mobliesafe61.SetUp4Activity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:110:9-111:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:110:19-49
+activity#com.itheima.mobliesafe61.SetBaseActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:112:9-113:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:112:19-50
+activity#com.itheima.mobliesafe61.ContactsActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:114:9-115:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:114:19-51
+activity#com.itheima.mobliesafe61.AddressActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:118:9-119:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:118:19-50
+activity#com.itheima.mobliesafe61.DragViewActivity
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:120:9-121:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:120:19-51
+service#com.itheima.mobliesafe61.service.KeppAliveService
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:123:9-124:19
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:123:18-82
+service#com.itheima.mobliesafe61.service.WidgetUpdateService
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:125:9-126:19
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:125:18-85
+service#com.itheima.mobliesafe61.service.CallSmsService
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:127:9-128:19
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:127:18-80
+receiver#com.itheima.mobliesafe61.receiver.BootCompleteReceiver
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:130:9-137:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:130:19-88
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:133:13-136:29
+	android:priority
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:133:28-51
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:134:17-135:26
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:134:25-76
+receiver#com.itheima.mobliesafe61.receiver.SmsReceiver
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:142:9-146:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:142:19-79
+intent-filter#android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:143:13-145:29
+	android:priority
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:143:28-51
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:144:17-82
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:144:25-79
+receiver#com.itheima.mobliesafe61.receiver.AdminReceiver
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:147:9-159:20
+	android:label
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:150:13-56
+	android:permission
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:151:13-70
+	android:description
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:149:13-74
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:148:13-75
+meta-data#android.app.device_admin
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:152:13-154:63
+	android:resource
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:154:17-60
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:153:17-56
+intent-filter#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:156:13-158:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:157:17-82
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:157:25-79
+service#com.itheima.mobliesafe61.service.GPSService
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:161:9-162:19
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:161:18-76
+service#com.itheima.mobliesafe61.service.AddressService
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:163:9-164:19
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:163:18-80
+service#com.itheima.mobliesafe61.service.AutoKillProcess
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:165:9-166:19
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:165:18-81
+service#com.itheima.mobliesafe61.service.WatchDogService
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:167:9-168:19
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:167:18-81
+receiver#com.itheima.mobliesafe61.receiver.MyAppWidgetProvider
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:171:9-179:20
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:171:19-87
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:172:13-174:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:173:17-84
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:173:25-81
+meta-data#android.appwidget.provider
+ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:176:13-178:65
+	android:resource
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:178:17-62
+	android:name
+		ADDED from C:\Users\jianglei\AndroidStudioProjects\Mobliesafe61\app\src\main\AndroidManifest.xml:177:17-58

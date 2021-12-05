@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 标题 -->
+
+    <TextView
+        style="@style/activity_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="进程管家" />
+
+    <!-- 行:手机内存 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/processcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="进程个数:20"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/meminfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="剩余/总内存:100M/300M"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <!-- 列表 -->
+    <!-- 缓存颜色 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/processlistview"
+            style="@style/listview_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+        <!-- 等待视图 -->
+        <!-- 重用 -->
+
+        <include layout="@layout/view_loading" />
+    </FrameLayout>
+
+    <!-- 操作工具栏 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <!-- 清理 -->
+
+        <Button
+            android:id="@+id/cleanall"
+            style="@style/bottom_button_green"
+            android:text="清理" />
+        <!-- 全选 -->
+
+        <Button
+            android:id="@+id/selectall"
+            style="@style/bottom_button_green"
+            android:text="全选" />
+        <!-- 反选 -->
+
+        <Button
+            android:id="@+id/reverseall"
+            style="@style/bottom_button_green"
+            android:text="反选" />
+        <!-- 设置 -->
+
+        <Button
+            android:id="@+id/setting"
+            style="@style/bottom_button_green"
+            android:text="设置 " />
+    </LinearLayout>
+
+</LinearLayout>

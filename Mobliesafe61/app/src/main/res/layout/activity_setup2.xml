@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itheima="http://schemas.android.com/apk/res/com.itheima.mobliesafe61"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="2.手机卡绑定" 
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="#8866ff00"
+        />
+    <!--  android:layout_margin="5dp"  距离上下左右的距离 -->
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过绑定sim卡:"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下次重启手机如果发现sim变化\n就会发送报警短信"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+    <com.itheima.mobliesafe61.ui.SettingView 
+        android:id="@+id/sv_setup2_sim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itheima:title="点击绑定sim卡"
+        itheima:des_on="sim卡已经绑定"
+        itheima:des_off="sim卡没有绑定"
+        ></com.itheima.mobliesafe61.ui.SettingView>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_online"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible"
+            />
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!-- android:layout_centerInParent="true" 居中显示 -->
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bind"
+            android:layout_centerInParent="true"
+            />
+        <Button 
+            style="@style/pre"
+            />
+        <!--  android:layout_alignParentRight="true"  到父控件右方 
+        android:layout_alignParentBottom="true" 到父控件的下方
+        android:padding="5dp"  距离内边框的距离
+        -->
+        <Button 
+            style="@style/next"
+            />
+    </RelativeLayout>
+</LinearLayout>

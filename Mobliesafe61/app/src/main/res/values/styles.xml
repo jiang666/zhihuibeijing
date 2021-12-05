@@ -1,0 +1,68 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- 去除标题栏 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+	<style name="next">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:text">下一步</item>
+	    <item name="android:layout_alignParentRight">true</item>
+	    <item name="android:layout_alignParentBottom">true</item>
+	    <item name="android:drawableRight">@drawable/next</item>
+	    <item name="android:background">@drawable/button</item>
+	    <item name="android:padding">5dp</item>
+	    <item name="android:onClick">next</item>
+	</style>
+	
+	<style name="pre">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:text">上一步</item>
+	    <item name="android:layout_alignParentLeft">true</item>
+	    <item name="android:layout_alignParentBottom">true</item>
+	    <item name="android:drawableLeft">@drawable/previous</item>
+	    <item name="android:background">@drawable/button</item>
+	    <item name="android:padding">5dp</item>
+	    <item name="android:onClick">pre</item>
+	</style>
+	<style name="activity_title" >
+		<item name="android:background">#ACFE76</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">25sp</item>
+	</style>
+	<style name="listview_style" >
+		<item name="android:cacheColorHint">@android:color/transparent</item>
+		<item name="android:divider">#4968A0</item>
+		<item name="android:dividerHeight">1dp</item>
+	</style>
+	
+	<style name="bottom_button_green">
+		<item name="android:background">@drawable/selector_contact_button</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+	<style name="default_listview" parent="android:Widget.Holo.Light.ListView">
+		<item name="android:cacheColorHint">@android:color/transparent</item>
+		<item name="android:divider">#4968A0</item>
+		<item name="android:dividerHeight">1dp</item>
+	</style>
+</resources>

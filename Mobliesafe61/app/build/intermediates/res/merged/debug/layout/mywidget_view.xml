@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_circle_pressed"
+    android:orientation="horizontal" >
+
+    <!-- 三行 -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/btn_circle_pressed"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/processcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正在运行的软件:13"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/widget_bg_portrait_child_divider" />
+
+        <TextView
+            android:id="@+id/availmem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="可用内存13M"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <!-- 两行 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/main_icon_36"
+            android:gravity="center"
+            android:text="快播手机卫士"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/kill_all"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button"
+            android:text="一键清理" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itheima="http://schemas.android.com/apk/res/com.itheima.mobliesafe61"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<!-- android:layout_gravity="center"   控制父控件中控件的位置
+	layout_ :　必须得到父控件的允许才会生效
+	android:gravity="center" :　控件内的内容的位置
+	android:paddingTop="10dp" : 距离内边框的距离
+	 -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="设置中心" 
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="#8866ff00"
+        />
+    <com.itheima.mobliesafe61.ui.SettingView 
+        android:id="@+id/sv_homesetting_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itheima:title="提示更新"
+        itheima:des_on="打开提示更新"
+        itheima:des_off="关闭提示更新"
+        ></com.itheima.mobliesafe61.ui.SettingView>
+    <com.itheima.mobliesafe61.ui.SettingView 
+        android:id="@+id/call_sms_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itheima:title="黑名单设置"
+        itheima:des_on="黑名单拦截已经打开"
+        itheima:des_off="黑名单拦截已经关闭"
+        ></com.itheima.mobliesafe61.ui.SettingView>
+    <com.itheima.mobliesafe61.ui.SettingView 
+        android:id="@+id/sv_homesetting_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itheima:title="显示号码归属地"
+        itheima:des_on="打开显示号码归属地"
+        itheima:des_off="关闭显示号码归属地"
+        ></com.itheima.mobliesafe61.ui.SettingView>
+    <com.itheima.mobliesafe61.ui.SettingClickView 
+        android:id="@+id/sv_homesetting_changbg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></com.itheima.mobliesafe61.ui.SettingClickView>
+    <com.itheima.mobliesafe61.ui.SettingClickView 
+        android:id="@+id/sv_homesetting_chang_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></com.itheima.mobliesafe61.ui.SettingClickView>
+    
+</LinearLayout>

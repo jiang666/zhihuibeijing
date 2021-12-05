@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="联系人列表" 
+        android:textSize="22sp"
+        android:gravity="center"
+        android:background="#8866ff00"
+        />
+    <!-- 可以实现不使用任何属性就实现，一个控件在另一个控件的上方 
+    RelativeLayout  如何不设置控件相对位置，控件相互重叠，也可以实现相应的效果
+    -->
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <ListView 
+        android:id="@+id/lv_contact_contactlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+    <ProgressBar 
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminateDrawable="@drawable/progerssbar_drawable"
+        />
+    </FrameLayout>
+</LinearLayout>

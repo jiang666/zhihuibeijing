@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 标题 -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ACFE76"
+        android:gravity="center"
+        android:text="缓存清理"
+        android:textSize="25sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#97C024" >
+
+        <ListView
+            android:id="@+id/listview"
+            style="@style/listview_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+
+        <!-- 两行 -->
+
+        <LinearLayout
+            android:id="@+id/loading_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <!-- 缓冲视图 -->
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:indeterminateDrawable="@drawable/progressbar_anim"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="正在扫描:kuaibo"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/cleanall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_contact_button"
+        android:gravity="center"
+        android:text="清理全部" />
+
+</LinearLayout>
