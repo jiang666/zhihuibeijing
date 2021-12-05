@@ -1,0 +1,131 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:17:1-31:12
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:5:5-72
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:5:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:6:5-73
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:6:22-70
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:7:5-73
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:7:22-70
+uses-permission#android.permission.INTERNET
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:12:22-76
+application
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:14:5-29:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:15:9-45
+activity#com.google.server.MainActivity
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:17:9-25:20
+	android:label
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:19:13-45
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:18:13-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:23:27-74
+service#com.google.server.WebService
+ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:27:9-28:19
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml:27:18-61
+uses-sdk
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduNetdiskDownload\itheimademo\WebServer\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:26:9-47

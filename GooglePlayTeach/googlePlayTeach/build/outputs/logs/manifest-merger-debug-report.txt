@@ -1,0 +1,135 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [:xUtilsLibrary] D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\xUtilsLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\182a76326475102356473c78f5367ed1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5c36a95c107595ac27ed880ccd551197\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\455b4232e1ee3fd7b2cabd26db7a0526\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:17:1-31:12
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:7:5-23:19
+MERGED from [:xUtilsLibrary] D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\xUtilsLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [:xUtilsLibrary] D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\xUtilsLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\182a76326475102356473c78f5367ed1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\182a76326475102356473c78f5367ed1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5c36a95c107595ac27ed880ccd551197\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5c36a95c107595ac27ed880ccd551197\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\455b4232e1ee3fd7b2cabd26db7a0526\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\455b4232e1ee3fd7b2cabd26db7a0526\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:10:9-45
+	android:allowBackup
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:12:9-53
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:8:9-73
+activity#com.itcast.googleplayteach.ui.activity.MainActivity
+ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:13:9-21:20
+	android:label
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:15:13-45
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:14:13-79
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:19:27-74
+activity#com.itcast.googleplayteach.ui.activity.HomeDetailActivity
+ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:22:9-94
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml:22:19-91
+uses-sdk
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml
+MERGED from [:xUtilsLibrary] D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\xUtilsLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:xUtilsLibrary] D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\xUtilsLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\182a76326475102356473c78f5367ed1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\182a76326475102356473c78f5367ed1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5c36a95c107595ac27ed880ccd551197\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5c36a95c107595ac27ed880ccd551197\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\455b4232e1ee3fd7b2cabd26db7a0526\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\455b4232e1ee3fd7b2cabd26db7a0526\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml
+INJECTED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\182a76326475102356473c78f5367ed1\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml
+		ADDED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduNetdiskDownload\itheimademo\GooglePlayTeach\googlePlayTeach\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\182a76326475102356473c78f5367ed1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5c36a95c107595ac27ed880ccd551197\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5c36a95c107595ac27ed880ccd551197\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\455b4232e1ee3fd7b2cabd26db7a0526\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\455b4232e1ee3fd7b2cabd26db7a0526\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\74e9ef17a899d15aea952081d976daf6\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\338a3635191a322d5f20f6935e7f6e35\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b7201eba13180a9434c59bdb16ea6fb3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2783083706b455b35a3db0409e2f7e49\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\4ef3ed3fe09ad7dcc7206f8c4d7bad5b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\4e2f49a37ca02ceb3a79582f98a74679\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\182a76326475102356473c78f5367ed1\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ÏôÄþ\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\182a76326475102356473c78f5367ed1\AndroidManifest.xml:26:9-47

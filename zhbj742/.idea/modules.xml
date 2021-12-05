@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zhbj742.iml" filepath="$PROJECT_DIR$/.idea/modules/zhbj742.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/slidingMenuLibrary/zhbj742.slidingMenuLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/slidingMenuLibrary/zhbj742.slidingMenuLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewPagerIndicatorLibrary/zhbj742.viewPagerIndicatorLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/viewPagerIndicatorLibrary/zhbj742.viewPagerIndicatorLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xUtilsLibrary/zhbj742.xUtilsLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/xUtilsLibrary/zhbj742.xUtilsLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zhbj74/zhbj742.zhbj74.iml" filepath="$PROJECT_DIR$/.idea/modules/zhbj74/zhbj742.zhbj74.iml" />
+    </modules>
+  </component>
+</project>

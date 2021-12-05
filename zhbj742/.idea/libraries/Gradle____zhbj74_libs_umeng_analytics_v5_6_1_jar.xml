@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./zhbj74/libs/umeng-analytics-v5.6.1.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zhbj74/libs/umeng-analytics-v5.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
