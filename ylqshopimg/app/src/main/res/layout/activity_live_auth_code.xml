@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.act.bandlive.LiveAuthCodeActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_back"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:text="绑定鱼络号"
+            android:textStyle="bold"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <!-- 152****6488-->
+    <TextView
+        android:id="@+id/tv_band_phone"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:textColor="@color/color_333333"
+        android:layout_marginTop="98dp"
+        android:text="验证码将发送至您绑定的手机"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/_50dp"
+        android:layout_marginLeft="@dimen/_40dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/_40dp"
+        android:layout_height="@dimen/_50dp">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="49.5dp">
+
+            <TextView
+                android:id="@+id/code"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:textColor="@color/color_333333"
+                android:text="验证码"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:layout_toRightOf="@+id/code"
+                android:gravity="center_vertical"
+                android:id="@+id/et_code"
+                android:background="@null"
+                android:textSize="14dp"
+                android:maxLength="6"
+                android:inputType="number"
+                android:textColor="@color/color_333333"
+                android:layout_marginLeft="@dimen/_15dp"
+                android:hint="请输入验证码"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_marginRight="@dimen/_40dp"
+                android:layout_toLeftOf="@+id/tv_get_power_code"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/img_circle_graw_close"
+                android:id="@+id/img_delect_power_num"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/et_power_code"
+                android:layout_width="@dimen/_20dp"
+                android:layout_height="@dimen/_20dp" />
+
+            <TextView
+                android:id="@+id/tv_get_power_code"
+                android:layout_alignParentRight="true"
+                android:text="获取验证码"
+                android:textSize="11.5dp"
+                android:textColor="@color/color_ffa531"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_f7f7f7"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_bind"
+        android:gravity="center"
+        android:text="确认绑定"
+        android:textColor="@color/white"
+        android:layout_width="295dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="220dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_2_conrner_solid_dddddd"
+        android:layout_height="@dimen/_45dp" />
+
+</LinearLayout>

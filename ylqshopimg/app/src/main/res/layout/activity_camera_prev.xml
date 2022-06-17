@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CameraPrevActivity">
+
+    <com.example.ylqshop.AutoFitTextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--识别覆盖视图-->
+    <RelativeLayout
+        android:id="@+id/rl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.ylqshop.CustomLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#90000000">
+
+            <!--身份证正面-->
+            <RelativeLayout
+                android:id="@+id/layout_sfz_up"
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginTop="124dp"
+                android:layout_marginRight="@dimen/_20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_sfz_bg" />
+
+                <ImageView
+                    android:layout_width="136dp"
+                    android:layout_height="132dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="4.5dp"
+                    android:src="@drawable/img_sfz_people" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_marginTop="@dimen/_80dp"
+                    android:text="请对准人像面拍照"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_marginBottom="@dimen/_80dp"
+                    android:text="证件四角置于框内"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_17dp" />
+
+            </RelativeLayout>
+
+            <!--身份证反面-->
+            <RelativeLayout
+                android:id="@+id/layout_sfz_down"
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginTop="124dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_sfz_bg" />
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="70.5dp"
+                    android:layout_marginLeft="19.5dp"
+                    android:layout_marginTop="@dimen/_22dp"
+                    android:layout_marginRight="4.5dp"
+                    android:src="@drawable/img_sfz_china" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/_80dp"
+                    android:layout_marginRight="60dp"
+                    android:text="请对准国徽面拍照"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginBottom="@dimen/_80dp"
+                    android:text="证件四角置于框内"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_17dp" />
+
+            </RelativeLayout>
+
+            <!--营业执照-->
+            <LinearLayout
+                android:id="@+id/layout_yyzz"
+                android:layout_width="match_parent"
+                android:layout_height="421dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="38dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请将营业执照四角置于框内拍照"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10dp"
+                    android:text="横板请横置手机拍照"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_17dp" />
+
+            </LinearLayout>
+
+            <!--银行卡-->
+            <RelativeLayout
+                android:id="@+id/layout_bankcar"
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginTop="124dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_sfz_bg" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_21dp"
+                android:layout_marginTop="345dp"
+                android:text="拍照实例：身份证正面"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_des_bankcar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="350dp"
+                android:text="请将银行卡正面置于框内"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16dp"
+                android:visibility="gone" />
+
+        </com.example.ylqshop.CustomLayout>
+
+        <ImageView
+            android:id="@+id/takePicture"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="53dp"
+            android:src="@drawable/img_take_camera" />
+
+    </RelativeLayout>
+
+    <!--返回+相册+标题-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_44dp"
+            android:layout_marginTop="24dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_back"
+                android:layout_width="@dimen/_50dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="@dimen/_15dp"
+                    android:layout_height="@dimen/_20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:src="@drawable/img_white_back" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="上传"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_pick_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_20dp"
+                android:gravity="center"
+                android:text="相册"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!--fixme 测试预览图片-->
+    <ImageView
+        android:id="@+id/img_true_bottom"
+        android:layout_width="174dp"
+        android:layout_height="111dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>

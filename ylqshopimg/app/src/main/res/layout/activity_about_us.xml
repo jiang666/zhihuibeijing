@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".ui.act.AboutUsActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_back"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:text="关于鱼络圈"
+            android:textStyle="bold"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/color_f7f7f7"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_marginTop="@dimen/_53dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/img_icon"
+            android:layout_width="@dimen/_75dp"
+            android:layout_height="@dimen/_75dp" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_below="@+id/img_icon"
+            android:layout_marginTop="@dimen/_15dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/color_333333"
+            android:textSize="14.5dp"
+            android:text="鱼络圈商家版"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="@dimen/_6dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/color_333333"
+            android:textSize="14.5dp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:id="@+id/rl_check_version"
+            android:background="@drawable/shape_4_conrner_solid_ffffff"
+            android:layout_marginTop="72dp"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:layout_below="@+id/tv_version"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:text="检测版本"
+                android:textSize="14.5dp"
+                android:textColor="@color/color_333333"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:src="@drawable/img_graw_more"
+                android:layout_marginRight="@dimen/_15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="@dimen/_8dp"
+                android:layout_height="@dimen/_15dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

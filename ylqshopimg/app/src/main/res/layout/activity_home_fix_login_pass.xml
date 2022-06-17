@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.act.setting.fixlogininpassword.HomeFixLoginPassActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_back"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:text="修改登录密码"
+            android:textStyle="bold"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_forget"
+            android:text="忘记密码"
+            android:paddingRight="@dimen/_20dp"
+            android:textSize="14.5dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/color_ffa531"
+            android:gravity="center_vertical|right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/_40dp"
+        android:layout_marginRight="@dimen/_40dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_60dp"
+        android:layout_height="@dimen/_60dp">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:text="旧密码"
+            android:textColor="@color/color_333333"
+            android:textSize="13.5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et_old_pass"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHint="@color/color_999999"
+            android:textColor="@color/color_333333"
+            android:textSize="13dp"
+            android:password="true"
+            android:layout_marginLeft="17.5dp"
+            android:hint="请输入旧密码"
+            android:background="@null"
+            android:digits="@string/rule_password"
+            android:layout_weight="1"
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/rl_old_eye"
+            android:layout_width="30dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_eye_old"
+                android:layout_width="@dimen/_17dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_eye_close" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginRight="@dimen/_40dp"
+        android:layout_marginLeft="@dimen/_40dp"
+        android:background="@color/color_f7f7f7"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/_40dp"
+        android:layout_marginRight="@dimen/_40dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_6dp"
+        android:layout_height="@dimen/_60dp">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:text="新密码"
+            android:textColor="@color/color_333333"
+            android:textSize="13.5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et_new_pass"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHint="@color/color_999999"
+            android:textColor="@color/color_333333"
+            android:textSize="13dp"
+            android:password="true"
+            android:layout_marginLeft="17.5dp"
+            android:hint="6~20位（必须包含数字和字母）"
+            android:background="@null"
+            android:digits="@string/rule_password"
+            android:layout_weight="1"
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/rl_new_eye"
+            android:layout_width="30dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_new_old"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_eye_close"
+                android:layout_width="@dimen/_17dp"
+                android:layout_height="@dimen/_8dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginRight="@dimen/_40dp"
+        android:layout_marginLeft="@dimen/_40dp"
+        android:background="@color/color_f7f7f7"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+    
+    <TextView
+        android:id="@+id/tv_true"
+        android:text="确认修改"
+        android:textColor="@color/white"
+        android:textSize="16.5dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_2_conrner_solid_dddddd"
+        android:layout_marginTop="220dp"
+        android:layout_width="295dp"
+        android:layout_height="@dimen/_45dp" />
+
+</LinearLayout>

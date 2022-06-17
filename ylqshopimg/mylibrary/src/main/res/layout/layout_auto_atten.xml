@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/sharell"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/shape_camera_pop"
+        android:orientation="horizontal">
+
+        <com.example.mylibrary.httpUtils.view.CircleImageView
+            android:layout_width="50dp"
+            android:id="@+id/img_url"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10.5dp"
+            android:layout_marginTop="12dp"
+            app:civ_border_width="0dp"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:maxWidth="110dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/colo_333333"
+                android:textSize="14.5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="关注直播，不错过主播每一个经常瞬间"
+                android:maxLines="1"
+                android:textColor="@color/colo_999999"
+                android:textSize="11.5dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/tv_attention"
+            android:text="关注主播"
+            android:textColor="@color/colo_FFFFFF"
+            android:textSize="13dp"
+            android:layout_marginTop="22dp"
+            android:layout_width="78dp"
+            android:background="@drawable/shape_ff5686_15corner"
+            android:layout_marginRight="9.5dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

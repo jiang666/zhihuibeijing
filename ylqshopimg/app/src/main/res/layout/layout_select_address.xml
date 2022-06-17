@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_0dp"
+        android:layout_weight="1"/>
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_10_conrner_solid_ffffff_top"
+        android:layout_width="match_parent"
+        android:layout_height="256dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="196dp">
+
+            <!--https://www.zhangshengrong.com/p/On1v8ByNye/-->
+            <com.example.ylqshop.view.PickerView
+                android:layout_weight="1"
+                android:id="@+id/pickview1"
+                android:layout_width="@dimen/_0dp"
+                android:layout_height="match_parent"/>
+
+            <com.example.ylqshop.view.PickerView
+                android:layout_weight="1"
+                android:id="@+id/pickview2"
+                android:layout_width="@dimen/_0dp"
+                android:layout_height="match_parent"/>
+
+            <com.example.ylqshop.view.PickerView
+                android:layout_weight="1"
+                android:id="@+id/pickview3"
+                android:layout_width="@dimen/_0dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <TextView
+            android:background="@color/color_f7f7f7"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:textColor="@color/color_333333"
+                android:textSize="16.5dp"
+                android:gravity="center"
+                android:text="取消"
+                android:layout_width="@dimen/_0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:background="@color/color_f7f7f7"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_true"
+                android:textColor="@color/color_ffa531"
+                android:textSize="16.5dp"
+                android:gravity="center"
+                android:text="确定"
+                android:layout_width="@dimen/_0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

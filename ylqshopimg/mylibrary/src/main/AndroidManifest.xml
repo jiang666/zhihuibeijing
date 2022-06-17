@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mylibrary">
+
+    <application>
+        <activity android:name=".httpUtils.ui.WebActivity"></activity>
+        <activity
+            android:name=".httpUtils.ui.LiveChatListActivity"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".httpUtils.ui.GiftRankActivity"
+            android:theme="@style/Transparent" />
+    </application>
+
+
+
+</manifest>

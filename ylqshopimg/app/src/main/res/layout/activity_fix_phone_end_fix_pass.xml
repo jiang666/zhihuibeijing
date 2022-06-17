@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".ui.act.setting.fixphone.FixPhoneEndFixPassActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:src="@drawable/img_black_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:text="更换登录手机号"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_marginTop="98dp"
+        android:layout_marginLeft="@dimen/_40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置登录密码"
+        android:textColor="@color/color_333333"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_40dp"
+        android:layout_marginLeft="@dimen/_40dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="@dimen/_60dp">
+
+        <TextView
+            android:text="登录密码"
+            android:textColor="@color/color_333333"
+            android:textSize="13.5dp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et_new_password"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:textSize="14.5dp"
+            android:textColor="@color/color_333333"
+            android:textColorHint="@color/color_999999"
+            android:hint="6~20位（必须包含数字和字母）"
+            android:maxLength="20"
+            android:digits="@string/rule_password"
+            android:singleLine="true"
+            android:background="@null"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_true_fix"
+        android:text="完成"
+        android:layout_marginTop="@dimen/_240dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/_17dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/shape_2_conrner_solid_dddddd"
+        android:layout_width="295dp"
+        android:layout_height="@dimen/_45dp" />
+
+</LinearLayout>

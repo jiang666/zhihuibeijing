@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout_container"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_shop"
+        android:layout_margin="6.25dp"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/img_delect"
+        android:visibility="gone"
+        android:layout_margin="@dimen/_10dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/img_close_circle"
+        android:layout_width="@dimen/_20dp"
+        android:layout_height="@dimen/_20dp" />
+    
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/img_change_left"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="11.25dp"
+        android:src="@drawable/img_change_left"
+        android:layout_width="22dp"
+        android:layout_height="22dp" />
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/img_change_right"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="11.25dp"
+        android:src="@drawable/img_change_right"
+        android:layout_width="22dp"
+        android:layout_height="22dp" />
+
+</RelativeLayout>

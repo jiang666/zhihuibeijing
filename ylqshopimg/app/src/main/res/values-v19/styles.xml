@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--Appbar背景色-->
+        <item name="colorPrimary">@color/white</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">@color/black</item>
+        <!--控制各个控件被选中时的颜色-->
+        <item name="colorAccent">#ff5686</item>
+    </style>
+
+    <!--首页主题背景-->
+    <style name="Theme.start" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/img_splash_bg</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!--main沉浸-->
+    <style name="Theme.translatebar" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!--吃喝玩乐-->
+    <style name="AppTheme.Immersive"  tools:ignore="ResourceCycle">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="NoTitleTranslucent80Theme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+<!--        <item name="android:windowBackground">@color/translate</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+<!--        <item name="android:windowAnimationStyle">@style/dialog_animation</item>-->
+        <item name="android:windowTranslucentStatus">true</item>+-
+    </style>
+
+</resources>

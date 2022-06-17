@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Appbar背景色-->
+    <color name="colorPrimary">#ff5686</color>
+    <!--状态栏颜色-->
+    <color name="colorPrimaryDark">#ff5686</color>
+    <!--控制各个控件被选中时的颜色-->
+    <color name="colorAccent">#ff5686</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="color_010101">#010101</color>
+    <color name="color_eeeeee">#EEEEEE</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_dbdbdb">#dbdbdb</color>
+    <color name="color_ffa531">#FFA531</color>
+    <color name="color_ffa531_30alpha">#4DFFA531</color>
+    <color name="color_fb7829">#FB7829</color>
+    <color name="color_292efb">#292EFB</color>
+    <color name="color_f7f7f7">#f7f7f7</color>
+    <color name="color_ff2828">#FF2828</color>
+    <color name="color_bdbdbd">#BDBDBD</color>
+    <color name="color_2ebe40">#2EBE4D</color>
+    <color name="color_2ebc3c">#2EBC3C</color>
+    <color name="color_ff5686">#FF5686</color>
+    <color name="color_translate">#00000000</color>
+    <color name="color_dd0d0d">#DD0D0D</color>
+    <color name="color_ff1818">#FF1818</color>
+    <color name="color_bbbbbb">#BBBBBB</color>
+    <color name="color_39b54a">#39B54A</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_F7F7F7">#F7F7F7</color>
+    <color name="colo_333333">#333333</color>
+    <color name="colo_line_stroke">#bbbbbb</color>
+</resources>

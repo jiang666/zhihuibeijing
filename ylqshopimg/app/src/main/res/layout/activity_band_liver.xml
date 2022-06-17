@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.act.bandlive.BandLiverActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_back"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:text="绑定鱼络号"
+            android:textStyle="bold"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/color_f7f7f7"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/shape_10_conrner_solid_ffffff"
+            android:orientation="vertical"
+            android:layout_height="225dp">
+
+            <LinearLayout
+                android:paddingTop="@dimen/_20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="105.5dp">
+
+                <TextView
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:text="商家宣传图："
+                    android:textColor="@color/color_333333"
+                    android:textSize="14.5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:layout_marginLeft="18.5dp"
+                    android:layout_width="@dimen/_75dp"
+                    android:layout_height="@dimen/_75dp">
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:src="@drawable/img_default_icon"
+                        android:scaleType="centerCrop"
+                        android:layout_width="@dimen/_75dp"
+                        android:layout_height="@dimen/_75dp" />
+                    
+                    <ImageView
+                        android:id="@+id/img_edit"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:src="@drawable/img_edit"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                    
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:text="默认展示门店封面，该图片仅展示在直播间右下角"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="@dimen/_11dp"
+                android:textColor="@color/color_999999"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/_16dp"
+                android:layout_marginRight="@dimen/_22dp"
+                android:layout_height="wrap_content" />
+            
+            <LinearLayout
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginTop="@dimen/_15dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="43.5dp">
+
+                <TextView
+                    android:text="鱼络号："
+                    android:textSize="14dp"
+                    android:textColor="@color/color_333333"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/et_code"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:background="@null"
+                    android:layout_weight="1"
+                    android:hint="请输入鱼络号"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/_14dp"
+                    android:textColor="@color/color_333333"
+                    android:gravity="center_vertical"
+                    android:layout_width="@dimen/_0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/tv_how_get"
+                    android:gravity="center"
+                    android:text="如何获取？"
+                    android:textColor="@color/color_333333"
+                    android:textSize="14.5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:background="@color/color_f7f7f7"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="下一步"
+            android:id="@+id/tv_next"
+            android:background="@drawable/shape_2_conrner_solid_ffa531"
+            android:textSize="16dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_40dp"
+            android:layout_marginRight="@dimen/_40dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion externalCompileSdkVersion
+
+    defaultConfig {
+        minSdkVersion externalMinSdkVersion
+        targetSdkVersion externalTargetSdkVersion
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+//    api project(path: ':svglibary')
+    api externalAndroidAppCompatV7
+    api project(path: ':IMKit')
+    //qq
+    api files('src\\main\\lib\\open_sdk_r6199_lite.jar')
+    api files('src\\main\\lib\\framework.jar')
+    //微信sdk
+    api 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+    api 'com.github.chrisbanes:PhotoView:2.0.0'
+    api 'com.github.yyued:SVGAPlayer-Android:2.1.8'
+    //阿里支付
+    api files('src\\main\\lib\\alipaySdk-15.6.8-20191021122455-noUtdid.aar')
+//    api 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+    //fastjason
+    api 'com.alibaba:fastjson:1.2.60'
+    //日志
+    api 'com.vise.xiaoyaoyou:viselog:1.1.2'
+    //网络
+    api 'com.squareup.retrofit2:retrofit:2.1.0'
+    api 'com.squareup.retrofit2:converter-gson:2.1.0'
+    api 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    api 'io.reactivex:rxjava:1.1.0'
+    api 'io.reactivex:rxandroid:1.1.0'
+    api 'com.squareup.okhttp3:logging-interceptor:3.7.0'
+    //bili弹幕
+    api 'com.github.ctiao:DanmakuFlameMaster:0.9.25'
+    api 'com.github.ctiao:ndkbitmap-armv7a:0.9.21'
+    api 'com.github.ctiao:ndkbitmap-armv5:0.9.21'
+    api 'com.github.ctiao:ndkbitmap-x86:0.9.21'
+    api project(path: ':photopicker')
+    //arouter
+    api 'com.alibaba:arouter-api:1.3.1'
+//    api 'com.android.support:exifinterface:27.1.1'
+    //毛玻璃
+    api 'jp.wasabeef:blurry:3.0.0'
+    api externalGlide
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
+    api 'jp.wasabeef:glide-transformations:4.1.0'
+    //arouter注解
+    annotationProcessor 'com.alibaba:arouter-compiler:1.1.4'
+    api externalAndroidRecyclerView
+    api externalAndroidCardView
+    api externalEventBus
+    //沉浸式
+    api('com.jaeger.statusbarutil:library:1.5.1') {
+        exclude group: 'com.android.support', module: 'support-v4'
+    }
+}

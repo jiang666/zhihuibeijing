@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--水平3个图片-->
+    <declare-styleable name="GridImageViewGroup">
+        <attr name="childVerticalSpace" format="dimension" />
+        <attr name="childHorizontalSpace" format="dimension" />
+        <attr name="columnNum" format="integer" />
+    </declare-styleable>
+
+
+</resources>

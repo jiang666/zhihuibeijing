@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="270dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_confirm_delect_pop"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <!--防止点击空白区域 变透明-->
+        <TextView
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="94.5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="您确定将XXX禁言吗？"
+                android:textColor="#333333"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_tex1"
+                android:layout_marginTop="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxWidth="195dp"
+                android:text="禁言后，此用户15分钟内不可在此房间发言"
+                android:textColor="#999999"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_below="@+id/top"
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#eeeeee" />
+
+        <LinearLayout
+            android:layout_below="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingRight="7.5dp"
+                android:text="再想想"
+                android:textColor="#FF5686"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#eeeeee" />
+
+            <TextView
+                android:id="@+id/tv_true"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#666666"
+                android:paddingLeft="7.5dp"
+                android:text="确定"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

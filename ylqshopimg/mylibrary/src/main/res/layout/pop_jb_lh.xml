@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:id="@+id/sharell"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/shape_camera_pop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_jb"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="举报"
+            android:textColor="#333333"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/tv_jb"
+            android:background="#eeeeee" />
+
+        <TextView
+            android:id="@+id/tv_lh"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/line1"
+            android:gravity="center"
+            android:text="拉黑"
+            android:textColor="#333333"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/tv_lh"
+            android:background="#eeeeee" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/line2"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/colo_FF5686"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

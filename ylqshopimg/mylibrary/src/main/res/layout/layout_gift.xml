@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/rl_click"
+        android:layout_width="match_parent"
+        android:layout_height="324dp"
+        android:background="@drawable/shape_gift_pop"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="#03000000"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="13.5dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/img_gift_zs" />
+
+            <TextView
+                android:id="@+id/tv_zs_num"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6.5dp"
+                android:gravity="center_vertical"
+                android:text="钻石:1000"
+                android:textColor="@color/white"
+                android:textSize="11.5dp" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="23.5dp"
+                android:background="@color/white" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="13.5dp"
+                android:layout_marginLeft="23.5dp"
+                android:src="@drawable/img_gift_jf" />
+
+            <TextView
+                android:id="@+id/tv_jf_num"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6.5dp"
+                android:gravity="center_vertical"
+                android:text="积分:1000"
+                android:textColor="@color/white"
+                android:textSize="11.5dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_charge"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:textSize="13.5dp"
+                android:drawableRight="@drawable/img_fen_more"
+                android:gravity="center_vertical"
+                android:text="充值"
+                android:textColor="#FF5686" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="240dp">
+
+            <RelativeLayout
+                android:id="@+id/rl"
+                android:background="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <com.example.mylibrary.httpUtils.view.NoScrollCaterpillarIndicator
+                    android:id="@+id/tab_gift_type"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    app:slide_caterpillar="true"
+                    app:slide_footer_color="#FF5686"
+                    app:slide_footer_line_height="2dp"
+                    app:slide_item_width="22dp"
+                    app:slide_padding_bottom="4dp"
+                    app:slide_round="true"
+                    app:slide_text_center_flag="textCenter"
+                    app:slide_text_color_normal="#666666"
+                    app:slide_text_color_selected="#FF5686"
+                    app:slide_text_size_normal="15dp"
+                    app:slide_text_size_selected="15dp" />
+            </RelativeLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/rl" />
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/tv_show_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/shape_ffffff_5corner"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textColor="#000000"
+                android:textSize="11dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="#03000000"
+            android:id="@+id/ll_dot"
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_below="@+id/view"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:background="#03000000"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="数量："
+                android:textColor="@color/white"
+                android:textSize="13dp" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_send_num1"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#FF5686"
+                android:textSize="12dp" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_send_num10"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_send_num99"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="99"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_send_num520"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="520"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_send_num999"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="999"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bt_send"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_ff5686_15corner"
+                android:text="赠送"
+                android:textColor="@color/white"
+                android:textSize="14.5dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.act.bandlive.HomeAddLiverActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_back"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:text="直播账号管理"
+            android:textStyle="bold"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/color_f7f7f7"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/shape_10_conrner_solid_ffffff"
+            android:layout_height="335dp">
+
+            <ImageView
+                android:id="@+id/img"
+                android:scaleType="centerCrop"
+                android:background="@color/color_f7f7f7"
+                android:layout_marginBottom="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_width="match_parent"
+                android:layout_height="166dp" />
+            
+            <TextView
+                android:text="添加鱼络ID号，可在该直播间关联门店，为门店带来大量流量，打造网红店，门店瞬间火遍全国。"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/_16dp"
+                android:textColor="@color/color_333333"
+                android:layout_marginBottom="14.5dp"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60dp" />
+            
+            <TextView
+                android:id="@+id/tv_band_live"
+                android:text="绑定鱼络号ID"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="16.5dp"
+                android:background="@drawable/shape_2_conrner_solid_ffa531"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

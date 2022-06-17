@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img_launch_icon"
+        android:layout_width="80dp"
+        android:layout_height="87dp" />
+
+    <TextView
+        android:text="好生意，就上鱼络圈"
+        android:textColor="@color/white"
+        android:textSize="18.5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

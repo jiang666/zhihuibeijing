@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.act.togetherrequest.ShopPicUpActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:src="@drawable/img_black_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:text="图片要求"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/color_f7f7f7"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_pic"
+            android:layout_margin="@dimen/_20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_test"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_190dp" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_5dp"
+            android:text="拍照示例：门头图"
+            android:textSize="13.5dp"
+            android:textColor="@color/color_333333"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_14dp"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/_14dp"
+            android:text="1.请保证门店招牌清晰无遮挡"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_pic"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape_2_conrner_solid_ffa531"
+            android:gravity="center"
+            android:text="去上传门头图"
+            android:textColor="@color/white"
+            android:textSize="16.5dp"
+            android:textStyle="bold"
+            android:layout_marginTop="130dp"
+            android:layout_width="335dp"
+            android:layout_height="45dp" />
+    </LinearLayout>
+
+</LinearLayout>

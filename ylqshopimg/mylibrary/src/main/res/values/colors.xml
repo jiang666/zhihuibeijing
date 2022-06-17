@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="alivc_white">#FFFFFF</color>
+    <color name="alivc_blue">#379DF2</color>
+    <color name="alivc_green">#57AB44</color>
+    <color name="alivc_orange">#EE7C33</color>
+    <color name="alivc_red">#E94033</color>
+    <color name="alivc_info_text_duration">#9f9e9e</color>
+    <color name="alivc_dialog_error_bg">#b2000000</color>
+    <color name="alivc_dialog_gesture_bg">#66ffffff</color>
+    <color name="alivc_gesture_text_color">#333333</color>
+    <color name="alivc_color_rate_item">#4c000000</color>
+    <color name="alivc_color_player_setting_background">#1e222d</color>
+    <color name="alivc_color_player_tab_selected">#00FFFF</color>
+    <color name="alivc_color_player_tab_defaut">#D8D8D8</color>
+
+    <color name="alivc_color_player_background">#1e222d</color>
+    <color name="alivc_color_player_colorPrimary">#00FFFF</color>
+    <color name="alivc_color_player_colorAccent">#00c1de</color>
+    <color name="alivc_color_player_clear_logs">#373d41</color>
+    <color name="alivc_color_player_manager_background">#373d41</color>
+    <color name="alivc_color_player_setting">#373d41</color>
+    <color name="colorPrimary">#1e222d</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary_alpha_five">#1affffff</color>
+    <color name="colorPrimary_alpha_ten">#0cffffff</color>
+    <color name="colorPrimary_alpha_fifteen">#26ffffff</color>
+    <color name="add_download_info_background">#373d41</color>
+    <color name="delete_download_info_background">#373d41</color>
+    <color name="alivc_color_player_list_item_press">#2d3342</color>
+    <color name="alivc_color_action_list_dialog_background">#1e2321</color>
+    <color name="alivc_color_gray">#D8D8D8</color>
+    <color name="alivc_barrage_switch_background">#80D8D8D8</color>
+
+
+    <color name="colo_FFFFFF">#FFFFFF</color>
+    <color name="colo_666666">#666666</color>
+    <color name="colo_FAE79D">#FAE79D</color>
+    <color name="colo_FF5686">#FF5686</color>
+    <color name="colo_333333">#333333</color>
+    <color name="colo_F3F2EC">#F3F2EC</color>
+    <color name="colo_CAAB86">#CAAB86</color>
+    <color name="colo_FF9568">#FF9568</color>
+    <color name="colo_70_white">#B3FFFFFF</color>
+    <color name="colo_30_black">#4D000000</color>
+    <color name="colo_3061FF">#3061FF</color>
+    <color name="colo_A0EDFF">#A0EDFF</color>
+    <color name="colo_1ECAFF">#1ECAFF</color>
+    <color name="colo_8CEAFF">#8CEAFF</color>
+    <color name="colo_FF9C26">#FF9C26</color>
+    <color name="colo_999999">#999999</color>
+    <color name="colo_FFAD1E">#FFAD1E</color>
+    <color name="colo_FFE58C">#FFE58C</color>
+
+</resources>

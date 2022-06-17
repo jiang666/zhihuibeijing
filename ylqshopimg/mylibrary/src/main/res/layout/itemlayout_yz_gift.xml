@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_con"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="45dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="1"
+                android:textColor="#333333"
+                android:textSize="11dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_rank_num"
+                android:layout_width="25dp"
+                android:layout_height="29.5dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/img_gift1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="45dp"
+            android:layout_height="match_parent">
+
+            <!--                android:src="@drawable/img_big_change_bg"
+-->
+            <com.example.mylibrary.httpUtils.view.CircleImageView
+                android:id="@+id/circle_img"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                app:civ_border_width="0dp"
+                tools:ignore="MissingConstraints" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_online"-->
+                <!--android:layout_marginBottom="4dp"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:paddingLeft="2dp"-->
+                <!--android:paddingTop="1dp"-->
+                <!--android:paddingBottom="1dp"-->
+                <!--android:paddingRight="2dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/shape_ff5686_4corner"-->
+                <!--android:text="房间中"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="8.5dp" />-->
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="13.5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:maxLines="1"
+                    android:maxWidth="100dp"
+                    android:ellipsize="end"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="小仙女儿"
+                    android:textSize="14.5dp" />
+
+                <ImageView
+                    android:id="@+id/img_sex"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/img_rect_boy" />
+
+                <ImageView
+                    android:id="@+id/img_dj"
+                    android:scaleType="fitXY"
+                    android:layout_width="30dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/tv_send_num"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="13.5dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="11dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_atten"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape_ff5686_15corner"
+            android:text="关注"
+            android:textColor="@color/white"
+            android:textSize="13.5dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".ui.act.txbank.BankDetailsActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:src="@drawable/img_black_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:text="银行卡设置"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/color_f7f7f7"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rl_bank_layout_bg"
+            android:background="@drawable/shape_2_conrner_solid_ffa531"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_height="140dp">
+
+            <ImageView
+                android:id="@+id/img_type"
+                android:src="@mipmap/img_icon"
+                android:layout_marginLeft="@dimen/_15dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_width="@dimen/_50dp"
+                android:layout_height="@dimen/_50dp" />
+
+            <TextView
+                android:id="@+id/tv_bank_name"
+                android:layout_toRightOf="@+id/img_type"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:text="银行卡"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_bank_type"
+                android:layout_toRightOf="@+id/img_type"
+                android:layout_marginTop="@dimen/_50dp"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:text="储蓄卡"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_default_bank"
+                android:visibility="gone"
+                android:text="默认银行卡"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_alignParentRight="true"
+                android:textSize="11.5dp"
+                android:layout_width="70dp"
+                android:background="@color/color_ffa531"
+                android:layout_height="20dp"/>
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/img_type"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="25dp">
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_19dp"
+                    android:text="****  ****  ****  "
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/tv_four_num"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_19dp"
+                    android:text="1234"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        
+        <TextView
+            android:id="@+id/tv_true_name"
+            android:textColor="@color/color_333333"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:text="账户名称:"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp" />
+
+        <TextView
+            android:id="@+id/tv_delect"
+            android:text="删除"
+            android:layout_marginTop="175dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_17dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/shape_2_conrner_solid_ffa531"
+            android:layout_width="295dp"
+            android:layout_height="@dimen/_45dp" />
+    </LinearLayout>
+
+</LinearLayout>

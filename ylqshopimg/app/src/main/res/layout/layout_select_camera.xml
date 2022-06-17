@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_10_conrner_solid_ffffff_top"
+        android:layout_width="match_parent"
+        android:layout_height="151dp">
+
+        <TextView
+            android:id="@+id/tv_take_pic"
+            android:textColor="@color/color_333333"
+            android:textSize="16.5dp"
+            android:gravity="center"
+            android:text="拍照"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp" />
+
+        <TextView
+            android:background="@color/color_f7f7f7"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp" />
+
+        <TextView
+            android:id="@+id/tv_xc"
+            android:textColor="@color/color_333333"
+            android:textSize="16.5dp"
+            android:gravity="center"
+            android:text="相册"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp" />
+
+        <TextView
+            android:background="@color/color_f7f7f7"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:textColor="@color/color_ffa531"
+            android:textSize="16.5dp"
+            android:gravity="center"
+            android:text="取消"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

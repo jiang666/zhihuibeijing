@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="155.5dp"
+    android:id="@+id/layout_container">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:background="@drawable/shape_10_conrner_solid_ffffff"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <!--信息-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="95dp">
+
+            <ImageView
+                android:id="@+id/img_liver"
+                android:scaleType="fitXY"
+                android:layout_margin="@dimen/_10dp"
+                android:layout_width="@dimen/_75dp"
+                android:layout_height="@dimen/_75dp" />
+            
+            <LinearLayout
+                android:layout_marginLeft="@dimen/_15dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="@dimen/_0dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <!--鱼络号-->
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:text="鱼络号："
+                       android:textColor="@color/color_333333"
+                       android:textSize="14.5dp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+
+                   <TextView
+                       android:maxLines="1"
+                       android:ellipsize="end"
+                       android:singleLine="true"
+                       android:layout_marginRight="@dimen/_10dp"
+                       android:id="@+id/tv_code"
+                       android:textColor="@color/color_333333"
+                       android:textSize="14.5dp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+
+               </LinearLayout>
+
+                <!--昵称-->
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_10dp"
+                    android:layout_marginBottom="@dimen/_10dp"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="昵称："
+                        android:textColor="@color/color_333333"
+                        android:textSize="14.5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:layout_marginRight="@dimen/_10dp"
+                        android:id="@+id/tv_name"
+                        android:textColor="@color/color_333333"
+                        android:textSize="14.5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <!--鱼络号-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="所属门店："
+                        android:textColor="@color/color_333333"
+                        android:textSize="14.5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:layout_marginRight="@dimen/_10dp"
+                        android:id="@+id/tv_shop"
+                        android:textColor="@color/color_333333"
+                        android:textSize="14.5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="@dimen/_10dp"
+            android:layout_marginRight="@dimen/_10dp"
+            android:background="@color/color_f7f7f7"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp" />
+
+        <!--解除绑定-->
+        <TextView
+            android:id="@+id/tv_band_del"
+            android:paddingLeft="@dimen/_10dp"
+            android:paddingRight="@dimen/_10dp"
+            android:textColor="@color/color_ffa531"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="解除绑定"
+            android:textSize="14.5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</RelativeLayout>

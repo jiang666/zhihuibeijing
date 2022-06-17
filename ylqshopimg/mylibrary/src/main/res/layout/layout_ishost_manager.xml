@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:clickable="true"
+        android:layout_width="270dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true">
+
+        <com.example.mylibrary.httpUtils.view.CustomRoundAngleFTImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:gravity="center"
+                    android:text="恭喜你成为房间管理员"
+                    android:textColor="#333333"
+                    android:textSize="16.5dp" />
+
+                <TextView
+                    android:id="@+id/tv_tex1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:text="本直播间你将获得\n以下特权：\n1.管理员专属发言标识\n2.禁言/ 解除禁言，踢出直播间等功能"
+                    android:textColor="#999999"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#eeeeee" />
+
+            <TextView
+                android:id="@+id/tv_true"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="#ff5686"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

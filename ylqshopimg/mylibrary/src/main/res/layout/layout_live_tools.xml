@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!--400-113-70-->
+    <RelativeLayout
+        android:id="@+id/rl_click"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:background="@drawable/shape_camera_pop"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="直播工具"
+            android:textColor="@color/colo_333333"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:id="@+id/tools1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/title">
+
+            <!--分享-->
+            <LinearLayout
+                android:id="@+id/ll_share"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="17.5dp"
+                    android:layout_height="16.5dp"
+                    android:src="@drawable/img_tools_share" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="分享"
+                    android:textColor="#666666"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!--公告-->
+            <LinearLayout
+                android:id="@+id/ll_gg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/img_tools_gg" />
+
+                <TextView
+                    android:id="@+id/tv_gg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="直播间公告"
+                    android:textColor="#666666"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!--闪光灯-->
+            <LinearLayout
+                android:id="@+id/ll_flash"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="17.5dp"
+                    android:layout_height="16.5dp"
+                    android:src="@drawable/img_tools_flash" />
+
+                <TextView
+                    android:id="@+id/tv_flash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="闪光头"
+                    android:textColor="#666666"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!--隐藏的美颜-->
+            <LinearLayout
+                android:id="@+id/ll_my"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/img_tools_my" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="美颜"
+                    android:textColor="#666666"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!--镜像-->
+            <LinearLayout
+                android:id="@+id/ll_jx"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/img_tools_jx" />
+
+                <TextView
+                    android:id="@+id/tv_jx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="开镜像"
+                    android:textColor="#666666"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tools2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/tools1">
+
+            <!--翻转-->
+            <LinearLayout
+                android:id="@+id/ll_camrea"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="17.5dp"
+                    android:layout_height="16.5dp"
+                    android:src="@drawable/img_tools_camera" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="翻转"
+                    android:textColor="#666666"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!--静音-->
+            <LinearLayout
+                android:id="@+id/ll_jy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_jy"
+                    android:layout_width="17.5dp"
+                    android:layout_height="16.5dp"
+                    android:src="@drawable/img_tools_jy" />
+
+                <TextView
+                    android:id="@+id/tv_jy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="静音"
+                    android:textColor="#666666"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!--大字体-->
+            <LinearLayout
+                android:id="@+id/ll_big_tex"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_bigtex"
+                    android:layout_width="17.5dp"
+                    android:layout_height="16.5dp"
+                    android:src="@drawable/img_tools_big_tex" />
+
+                <TextView
+                    android:id="@+id/tv_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="大字体"
+                    android:textColor="#666666"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <!--清屏-->
+            <LinearLayout
+                android:id="@+id/ll_qp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="17.5dp"
+                    android:layout_height="16.5dp"
+                    android:src="@drawable/img_tools_qp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="清屏"
+                    android:textColor="#666666"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--70-->
+        <LinearLayout
+            android:id="@+id/tools3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/tools2"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+
+        <!--28h-->
+        <TextView
+            android:id="@+id/ts"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_below="@+id/tools3"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="互动工具"
+            android:textColor="@color/colo_333333"
+            android:textSize="14dp"
+            android:visibility="gone" />
+
+        <!--85h-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@+id/ts"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/ll_song"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/img_tools_song" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="唱歌"
+                    android:textColor="#666666"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_bg_music"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/img_tools_bg_music" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="背景音乐"
+                    android:textColor="#666666"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_lv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/img_tools_lw" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="礼物转盘"
+                    android:textColor="#666666"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_xyd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/img_tools_xyd" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="心愿单"
+                    android:textColor="#666666"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

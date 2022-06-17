@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_details"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="@dimen/_50dp">
+
+        <TextView
+            android:id="@+id/tv_data"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:textColor="@color/color_333333"
+            android:textSize="@dimen/_13dp"
+            android:text="2020年01月02日"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_jf"
+            android:textColor="@color/color_ffa531"
+            android:textSize="@dimen/_13dp"
+            android:gravity="center_vertical|right"
+            android:layout_weight="1"
+            android:text="0积分"
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_bi"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_ffa531"
+            android:textSize="13.5dp"
+            android:text="0笔"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/_40dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_more_not_show"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_more"
+                android:layout_width="6dp"
+                android:layout_height="11.5dp" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/img_more_show"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_down"
+                android:layout_width="11.5dp"
+                android:layout_height="6dp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_today_info_de"
+        android:visibility="gone"
+        android:layout_below="@+id/layout_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@+id/rv_today_info_de"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:background="@color/color_f7f7f7"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_layout"
+    android:background="@color/color_f7f7f7"
+    android:layout_height="@dimen/_50dp">
+
+    <TextView
+        android:id="@+id/tv_select"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:background="@color/color_ff5686"
+        android:layout_width="2dp"
+        android:layout_height="@dimen/_14dp" />
+    
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_centerInParent="true"
+        android:textColor="@color/color_333333"
+        android:textSize="13.5dp"
+        android:text="结婚摄影"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

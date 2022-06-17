@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".ui.act.todaydetail.TodayGuestActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:src="@drawable/img_black_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:text="顾客"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:background="@color/color_f7f7f7"
+        android:layout_height="@dimen/_0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--标题-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="65dp">
+
+                <TextView
+                    android:id="@+id/tv_shopname"
+                    android:text="门店"
+                    android:textColor="@color/color_333333"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:textSize="16.5dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_marginRight="@dimen/_20dp"
+                    android:layout_alignParentRight="true"
+                    android:text="客户持续购买力反映门店的能力"
+                    android:textColor="@color/color_999999"
+                    android:textSize="13.5dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+            <!--日期-->
+            <LinearLayout
+                android:background="@drawable/shape_2_conrner_stroke_999999"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="200dp"
+                android:layout_height="@dimen/_30dp"
+                android:orientation="horizontal">
+
+                <!--2020年3月18日（今天)-->
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:gravity="center"
+                    android:textSize="13.5dp"
+                    android:textColor="@color/color_333333"
+                    android:text=""
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_width="0.5dp"
+                    android:background="@color/color_999999"
+                    android:layout_height="match_parent"
+                    tools:ignore="Suspicious0dp" />
+
+                <ImageView
+                    android:id="@+id/img_select_data"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginRight="7.5dp"
+                    android:src="@drawable/img_guest_data"
+                    android:layout_width="@dimen/_19dp"
+                    android:layout_height="@dimen/_19dp" />
+            </LinearLayout>
+
+            <!--总顾客-->
+            <TextView
+                android:text="总顾客（人）"
+                android:textSize="14.5dp"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_46dp" />
+
+            <TextView
+                android:id="@+id/tv_today_num"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/_18dp"
+                android:textColor="@color/color_333333"
+                android:textStyle="bold"
+                android:text="0"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40dp" />
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/_35dp">
+
+                <TextView
+                    android:text="比昨日"
+                    android:textSize="11.5dp"
+                    android:textColor="@color/color_999999"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/img_all_guest_b"
+                    android:layout_marginTop="@dimen/_1dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="@dimen/_4dp"
+                    android:layout_marginRight="@dimen/_4dp"
+                    android:src="@drawable/img_guest_up"
+                    android:layout_width="@dimen/_8dp"
+                    android:layout_height="12.5dp" />
+
+                <TextView
+                    android:id="@+id/tv_all_guest_b"
+                    android:text="0"
+                    android:textSize="11.5dp"
+                    android:textColor="@color/color_ff2828"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <!--顾客情况-->
+            <LinearLayout
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:background="@drawable/shape_10_conrner_solid_ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="289dp"
+                android:orientation="vertical">
+
+                <!--老/新顾客-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="96dp">
+
+                    <!--老顾客-->
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="@dimen/_0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:text="老顾客（人）"
+                            android:textSize="14.5dp"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_old_guest_people"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5dp"
+                            android:layout_marginTop="@dimen/_5dp"
+                            android:text="0"
+                            android:textColor="@color/color_333333"
+                            android:textSize="@dimen/_18dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:gravity="center_horizontal"
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="比昨日"
+                                android:textSize="11.5dp"
+                                android:textColor="@color/color_999999"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <ImageView
+                                android:id="@+id/img_old_guest_people"
+                                android:layout_marginTop="@dimen/_1dp"
+                                android:scaleType="fitXY"
+                                android:layout_marginLeft="@dimen/_4dp"
+                                android:layout_marginRight="@dimen/_4dp"
+                                android:src="@drawable/img_guest_up"
+                                android:layout_width="@dimen/_8dp"
+                                android:layout_height="12.5dp" />
+
+                            <TextView
+                                android:text="0"
+                                android:id="@+id/tv_old_guest_people_b"
+                                android:textSize="11.5dp"
+                                android:textColor="@color/color_ff2828"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!--新顾客-->
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="@dimen/_0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:text="新顾客（人）"
+                            android:textSize="14.5dp"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_new_guest_people"
+                            android:layout_marginTop="@dimen/_5dp"
+                            android:layout_marginBottom="@dimen/_5dp"
+                            android:text="0"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_18dp"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:gravity="center_horizontal"
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="比昨日"
+                                android:textSize="11.5dp"
+                                android:textColor="@color/color_999999"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <ImageView
+                                android:id="@+id/img_new_guest_people"
+                                android:layout_marginTop="@dimen/_1dp"
+                                android:scaleType="fitXY"
+                                android:layout_marginLeft="@dimen/_4dp"
+                                android:layout_marginRight="@dimen/_4dp"
+                                android:src="@drawable/img_guest_up"
+                                android:layout_width="@dimen/_8dp"
+                                android:layout_height="12.5dp" />
+
+                            <TextView
+                                android:id="@+id/tv_new_guest_people_b"
+                                android:text="0"
+                                android:textSize="11.5dp"
+                                android:textColor="@color/color_ff2828"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginRight="@dimen/_20dp"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:background="@color/color_f7f7f7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp" />
+
+                <!--交易笔数(笔) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="96dp">
+
+                    <!--交易笔数(笔)-->
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="@dimen/_0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:text="交易笔数(笔)"
+                            android:textSize="14.5dp"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_old_guest_deal_num"
+                            android:layout_marginTop="@dimen/_8dp"
+                            android:text="0"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_18dp"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <!--交易笔数(笔)-->
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="@dimen/_0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:text="交易笔数(笔)"
+                            android:textSize="14.5dp"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_new_guest_deal_num"
+                            android:layout_marginTop="@dimen/_8dp"
+                            android:text="0"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_18dp"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginRight="@dimen/_20dp"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:background="@color/color_f7f7f7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp" />
+
+                <!--交易金额(积分) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="96dp">
+
+                    <!--交易金额(积分)-->
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="@dimen/_0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:text="交易金额(积分)"
+                            android:textSize="14.5dp"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_old_guest_deal_jf"
+                            android:layout_marginTop="@dimen/_8dp"
+                            android:text="32"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_18dp"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <!--交易金额(积分)-->
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="@dimen/_0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:text="交易金额(积分)"
+                            android:textSize="14.5dp"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_new_guest_deal_jf"
+                            android:layout_marginTop="@dimen/_8dp"
+                            android:text="0"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_18dp"
+                            android:textColor="@color/color_333333"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--全部 新老顾客-->
+            <LinearLayout
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:background="@drawable/shape_10_conrner_solid_ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginBottom="@dimen/_20dp"
+                android:orientation="vertical">
+
+                <!--scrollable-->
+                <com.androidkun.xtablayout.XTabLayout
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:layout_marginRight="@dimen/_10dp"
+                    android:id="@+id/tablayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:xTabMode="fixed"
+                    android:background="@color/white"
+                    app:tabPaddingEnd="-1dp"
+                    app:tabPaddingStart="-1dp"
+                    app:xTabDividerWidthWidthText="true"
+                    app:xTabTextBold="true"
+                    app:xTabIndicatorColor="@color/color_ffa531"
+                    app:xTabSelectedTextColor="@color/color_ffa531"
+                    app:xTabTextColor="@color/color_333333"
+                    app:xTabTextAppearance="@style/TabLayoutTextStyle"/>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/vp_guest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/color_translate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/shape_15_conrner_solid_ffffff"
+        android:layout_centerInParent="true"
+        android:layout_width="305dp"
+        android:layout_height="385dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center"
+            android:text="提现说明"
+            android:textColor="@color/color_333333"
+            android:textSize="16.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55dp" />
+
+        <!--说明标题-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30dp">
+
+            <TextView
+                android:text="规则说明："
+                android:textSize="14.5dp"
+                android:textColor="@color/color_999999"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="1积分=1元"
+                android:textSize="14dp"
+                android:textColor="@color/color_ffa531"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <!--1-->
+        <TextView
+            android:layout_marginLeft="@dimen/_20dp"
+            android:textColor="@color/color_333333"
+            android:text="1.提现积分将会账户余额中扣除； "
+            android:textSize="@dimen/_14dp"
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <!--2-->
+        <TextView
+            android:layout_marginLeft="@dimen/_20dp"
+            android:textColor="@color/color_333333"
+            android:layout_marginRight="@dimen/_20dp"
+            android:text="2.每次最低提现100积分，每日一次，每日17:00点以后提现下一个工作日结算； "
+            android:textSize="@dimen/_14dp"
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <!--3-->
+        <TextView
+            android:layout_marginLeft="@dimen/_20dp"
+            android:textColor="@color/color_333333"
+            android:layout_marginRight="@dimen/_20dp"
+            android:text="3.每笔到账的提现金额=提现积分*折扣费率，且只保留两位小数； "
+            android:textSize="@dimen/_14dp"
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <!--4-->
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:textColor="@color/color_333333"
+            android:text=""
+            android:textSize="@dimen/_14dp"
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <!--5-->
+        <TextView
+            android:layout_marginLeft="@dimen/_20dp"
+            android:textColor="@color/color_333333"
+            android:text="例：750.00（元）=1000（积分）*75%。"
+            android:textSize="@dimen/_14dp"
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <TextView
+            android:id="@+id/tv_konw"
+            android:layout_marginTop="@dimen/_15dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:background="@drawable/shape_2_conrner_solid_ffa531"
+            android:textColor="@color/white"
+            android:text="知道了"
+            android:textSize="16.5dp"
+            android:textStyle="bold"
+            android:layout_width="230dp"
+            android:layout_height="@dimen/_45dp" />
+    </LinearLayout>
+</RelativeLayout>

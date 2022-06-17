@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.act.setpasswoed.forget.ForgetAndSetActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_back"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:text="重置商户管理密码"
+            android:textStyle="bold"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/color_f7f7f7"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="请输入新的商户密码"
+            android:textSize="@dimen/_16dp"
+            android:layout_marginTop="92dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/color_333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/ll_num"
+            android:layout_marginLeft="@dimen/_19dp"
+            android:layout_marginRight="@dimen/_19dp"
+            android:layout_marginTop="39dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_46dp">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:textSize="@dimen/_14dp"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:background="@drawable/shape_4_conrner_solid_ffffff"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="@dimen/_0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textSize="@dimen/_14dp"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:id="@+id/tv2"
+                android:background="@drawable/shape_4_conrner_solid_ffffff"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="@dimen/_0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textSize="@dimen/_14dp"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:id="@+id/tv3"
+                android:background="@drawable/shape_4_conrner_solid_ffffff"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="@dimen/_0dp"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:textSize="@dimen/_14dp"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:id="@+id/tv4"
+                android:background="@drawable/shape_4_conrner_solid_ffffff"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="@dimen/_0dp"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:textSize="@dimen/_14dp"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:id="@+id/tv5"
+                android:background="@drawable/shape_4_conrner_solid_ffffff"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="@dimen/_0dp"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:textSize="@dimen/_14dp"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:id="@+id/tv6"
+                android:background="@drawable/shape_4_conrner_solid_ffffff"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/_20dp"
+            android:textSize="@dimen/_14dp"
+            android:textColor="@color/color_999999"
+            android:layout_marginLeft="@dimen/_19dp"
+            android:layout_marginRight="@dimen/_19dp"
+            android:text="1. 商户管理密码将用于用户退款，更换登录手机号，和 银行卡管理，请填写便于记忆的密码。  "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_20dp"
+            android:textSize="@dimen/_14dp"
+            android:textColor="@color/color_999999"
+            android:layout_marginLeft="@dimen/_19dp"
+            android:layout_marginRight="@dimen/_19dp"
+            android:text="2.商户管理密码不能是连续的数字"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tv_true"
+            android:gravity="center"
+            android:layout_marginTop="93dp"
+            android:textSize="@dimen/_16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="确认"
+            android:background="@drawable/shape_2_conrner_solid_dddddd"
+            android:layout_width="295dp"
+            android:layout_height="45dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

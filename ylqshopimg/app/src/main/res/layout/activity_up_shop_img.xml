@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.act.shopinfo.baseinfo.UpShopImgActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_back"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:text="基本信息"
+            android:textStyle="bold"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_f7f7f7"
+        android:orientation="vertical">
+
+        <!--状态1 没有封面图状态-->
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_state_no_img"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/color_ffa531_30alpha"
+                android:layout_height="30dp">
+
+                <ImageView
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/img_yellow_ques"
+                    android:layout_width="@dimen/_18dp"
+                    android:layout_height="@dimen/_18dp" />
+
+                <TextView
+                    android:text="请上传真实的门头照"
+                    android:textColor="@color/color_ffa531"
+                    android:textSize="13.5dp"
+                    android:layout_marginLeft="@dimen/_11dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_uppic_state_has_no"
+                android:text="上传封面"
+                android:textSize="16dp"
+                android:layout_marginTop="66dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:background="@drawable/shape_2_conrner_solid_ffa531"
+                android:textColor="@color/white"
+                android:layout_width="295dp"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+
+        <!--状态2 审核状态-->
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_state_sh_ing"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/color_ffa531_30alpha"
+                android:layout_height="30dp">
+
+                <ImageView
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/img_yellow_ques"
+                    android:layout_width="@dimen/_18dp"
+                    android:layout_height="@dimen/_18dp" />
+
+                <TextView
+                    android:text="图片审核中"
+                    android:textColor="@color/color_ffa531"
+                    android:textSize="13.5dp"
+                    android:layout_marginLeft="@dimen/_11dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="图片审核通过后将显示在鱼络圈APP中门店相关页\n面。"
+                android:textSize="16dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/color_333333"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_height="66.5dp" />
+
+            <ImageView
+                android:id="@+id/img_sh_img"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="188.5dp" />
+
+        </LinearLayout>
+
+        <!--状态3 已审核状态-->
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_state_sh_ok"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/color_ffa531_30alpha"
+                android:layout_height="30dp">
+
+                <ImageView
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/img_green_ok"
+                    android:layout_width="@dimen/_18dp"
+                    android:layout_height="@dimen/_18dp" />
+
+                <TextView
+                    android:text="图片审核通过，图片已生效"
+                    android:textColor="@color/color_39b54a"
+                    android:textSize="13.5dp"
+                    android:layout_marginLeft="@dimen/_11dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="恭喜图片已生效！你可鱼络圈APP 中门店相关页面\n查看效果。"
+                android:textSize="16dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/color_333333"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_height="66.5dp" />
+
+            <ImageView
+                android:id="@+id/img_sh_ok"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="188.5dp" />
+
+            <TextView
+                android:id="@+id/tv_uppic_state_sh_ok"
+                android:text="更换封面"
+                android:textSize="16dp"
+                android:layout_marginTop="56dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:background="@drawable/shape_2_conrner_solid_ffa531"
+                android:textColor="@color/white"
+                android:layout_width="295dp"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

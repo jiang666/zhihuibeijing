@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".ui.act.txbank.AddBankFirstActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_back"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:text="添加银行卡"
+            android:textStyle="bold"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/color_f7f7f7"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="14.5dp"
+            android:text="为保障您的资金安全，请添加本人名的银行卡"
+            android:textColor="@color/color_666666"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_54dp" />
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:background="@drawable/shape_10_conrner_solid_ffffff"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <!--卡号-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60dp">
+
+                <TextView
+                    android:text="银行卡号"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:textColor="@color/color_333333"
+                    android:textSize="@dimen/_16dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_60dp" />
+
+                <EditText
+                    android:gravity="center_vertical"
+                    android:id="@+id/et_bankcar_num"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:textSize="@dimen/_16dp"
+                    android:textColor="@color/color_333333"
+                    android:textColorHint="@color/color_999999"
+                    android:hint="请拍照储蓄卡获取卡号"
+                    android:maxLength="25"
+                    android:maxLines="1"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:background="@null"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/img_sm_bank_car"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_marginRight="@dimen/_20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/img_sm_bank_car"
+                    android:layout_width="@dimen/_20dp"
+                    android:layout_height="@dimen/_20dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_line"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:background="@color/color_f7f7f7"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp" />
+
+            <!--银行-->
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/ll_layout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60dp">
+
+                <TextView
+                    android:text="开户银行"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:textColor="@color/color_333333"
+                    android:textSize="@dimen/_16dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_60dp" />
+
+                <TextView
+                    android:id="@+id/tv_bankcar_type"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:textSize="@dimen/_16dp"
+                    android:textColor="@color/color_333333"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/_20dp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:text="下一步"
+            android:layout_marginTop="@dimen/_50dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_17dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/shape_2_conrner_solid_dddddd"
+            android:layout_width="295dp"
+            android:layout_height="@dimen/_45dp" />
+
+        <TextView
+            android:id="@+id/tv_can_use_car"
+            android:text="支持银行列表"
+            android:textColor="@color/color_ffa531"
+            android:textSize="14.5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="27dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

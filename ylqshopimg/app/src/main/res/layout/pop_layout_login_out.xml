@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/color_translate"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_bg"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:clickable="true"
+        android:background="@drawable/shape_15_conrner_solid_ffffff"
+        android:layout_centerInParent="true"
+        android:layout_width="270dp"
+        android:layout_height="@dimen/_140dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="94.5dp">
+
+            <TextView
+                android:text="退出登录"
+                android:textColor="@color/color_333333"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_16dp"
+                android:layout_width="wrap_content"
+                android:text="确定要退出此账号？"
+                android:textSize="14.5dp"
+                android:textColor="@color/color_333333"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:background="@color/color_f7f7f7"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:gravity="center"
+                android:textSize="@dimen/_16dp"
+                android:textColor="@color/color_ffa531"
+                android:text="取消"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:background="@color/color_f7f7f7"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_true"
+                android:gravity="center"
+                android:textSize="@dimen/_16dp"
+                android:textColor="@color/color_666666"
+                android:text="确定"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

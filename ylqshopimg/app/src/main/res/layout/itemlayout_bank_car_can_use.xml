@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50dp"
+    android:id="@+id/layout_container">
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_f7f7f7"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:id="@+id/img_type"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/img_question"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:text="中国工商银行-2988"
+        android:layout_toRightOf="@+id/img_type"
+        android:layout_marginLeft="12.5dp"
+        android:textColor="@color/color_333333"
+        android:textSize="14.5dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

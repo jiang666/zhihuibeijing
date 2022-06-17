@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_layout"
+        android:layout_width="76dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/img_ly"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/tv_gift_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_ly"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="棒棒糖"
+            android:textColor="@color/white"
+            android:textSize="11.5dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_below="@+id/tv_gift_name"
+            android:layout_marginTop="4dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_num_gift"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_vertical"
+                android:text="0"
+                android:textColor="#999999"
+                android:textSize="9dp" />
+
+            <ImageView
+                android:id="@+id/img_lw_type"
+                android:layout_width="9.5dp"
+                android:layout_height="9.5dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/tv_num_gift"
+                android:src="@drawable/img_gift_zs" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_jf"
+            android:layout_width="25dp"
+            android:layout_height="12dp"
+            android:layout_margin="1.1dp"
+            android:src="@drawable/img_gift_jf_icon"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

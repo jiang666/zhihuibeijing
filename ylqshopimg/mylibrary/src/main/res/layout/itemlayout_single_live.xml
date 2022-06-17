@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="45dp"
+    android:id="@+id/rl_single"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/img_left"
+        android:layout_width="12dp"
+        android:layout_height="27.5dp"
+        android:layout_marginTop="10.5dp"
+        android:src="@drawable/img_ban1_left" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/img_right"
+        android:layout_width="12dp"
+        android:layout_height="27.5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10.5dp"
+        android:src="@drawable/img_band1_right" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/img_top"
+        android:layout_width="22dp"
+        android:layout_height="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_ban1_top" />
+
+    <!--        android:src="@drawable/z_test_img"
+-->
+    <com.example.mylibrary.httpUtils.view.CircleImageView
+        android:id="@+id/circle_img_1"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        app:civ_border_color="#FAE79D"
+        app:civ_border_width="1dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_4corner_rank1"
+        android:gravity="center"
+        android:paddingLeft="4dp"
+        android:paddingTop="1dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="1dp"
+        android:text="1.2万"
+        android:textColor="@color/colo_FF5686"
+        android:textSize="6.5dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

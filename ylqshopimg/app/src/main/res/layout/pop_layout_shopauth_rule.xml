@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/color_translate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/shape_15_conrner_solid_ffffff"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="@dimen/_20dp"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_height="434dp">
+
+        <ImageView
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/img_zz_top"
+            android:scaleType="fitXY"
+            android:layout_width="295dp"
+            android:layout_height="166dp" />
+
+        <ImageView
+            android:layout_marginTop="@dimen/_15dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/img_zz_bottom"
+            android:scaleType="fitXY"
+            android:layout_width="295dp"
+            android:layout_height="166dp" />
+
+        <TextView
+            android:layout_marginTop="21.5dp"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:background="@color/color_eeeeee"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp" />
+
+        <TextView
+            android:id="@+id/tv_ok"
+            android:textColor="@color/color_ffa531"
+            android:textSize="@dimen/_16dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:text="已了解，去填写"
+            android:layout_height="@dimen/_45dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

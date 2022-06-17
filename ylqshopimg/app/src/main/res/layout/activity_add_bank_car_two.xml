@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".ui.act.txbank.AddBankCarTwoActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_back"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:text="验证银行卡信息"
+            android:textStyle="bold"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/color_f7f7f7"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_15dp"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:background="@drawable/shape_10_conrner_solid_ffffff"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <!--银行-->
+            <LinearLayout
+                android:id="@+id/ll_layout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60dp">
+
+                <TextView
+                    android:text="开户银行"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:textColor="@color/color_999999"
+                    android:textSize="@dimen/_16dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_60dp" />
+
+                <TextView
+                    android:id="@+id/tv_bankcar_type"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:textSize="@dimen/_16dp"
+                    android:textColor="@color/color_999999"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/_20dp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_line"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:background="@color/color_f7f7f7"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp" />
+
+            <!--卡号-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60dp">
+
+                <TextView
+                    android:text="银行卡号"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:textColor="@color/color_999999"
+                    android:textSize="@dimen/_16dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_60dp" />
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:id="@+id/et_bankcar_num"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:textSize="@dimen/_16dp"
+                    android:textColor="@color/color_999999"
+                    android:textColorHint="@color/color_999999"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:background="@null"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:textSize="14.5dp"
+            android:text="填写银行预留信息，后续仅添加该持卡人的银行卡"
+            android:textColor="@color/color_666666"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_54dp" />
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_20dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:background="@drawable/shape_10_conrner_solid_ffffff"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <!--持卡人-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60dp">
+
+                <TextView
+                    android:text="持卡人"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:textColor="@color/color_333333"
+                    android:textSize="@dimen/_16dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_60dp" />
+
+                <!--et_bankcar_peoplename-->
+                <TextView
+                    android:hint=""
+                    android:id="@+id/et_bankcar_peoplename"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:textSize="@dimen/_16dp"
+                    android:background="@null"
+                    android:textColorHint="@color/color_999999"
+                    android:textColor="@color/color_999999"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/_20dp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <TextView
+                android:visibility="gone"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:background="@color/color_f7f7f7"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp" />
+
+            <!--身份证-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60dp">
+
+                <TextView
+                    android:text="身份证"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:textColor="@color/color_333333"
+                    android:textSize="@dimen/_16dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_60dp" />
+
+                <EditText
+                    android:hint="请填写持卡人身份证号"
+                    android:id="@+id/et_bankcar_people_sfz_code"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:textSize="@dimen/_16dp"
+                    android:background="@null"
+                    android:textColorHint="@color/color_999999"
+                    android:textColor="@color/color_333333"
+                    android:layout_weight="1"
+                    android:maxLength="18"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/_20dp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <TextView
+                android:visibility="gone"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:background="@color/color_f7f7f7"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp" />
+
+            <!--手机号-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60dp">
+
+                <TextView
+                    android:text="手机号"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:textColor="@color/color_333333"
+                    android:textSize="@dimen/_16dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_60dp" />
+
+                <EditText
+                    android:hint="请填写持卡人银行预留手机号"
+                    android:id="@+id/et_bankcar_people_phone"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:textSize="@dimen/_16dp"
+                    android:background="@null"
+                    android:textColorHint="@color/color_999999"
+                    android:textColor="@color/color_333333"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/_20dp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/img_ts"
+                    android:layout_marginRight="@dimen/_20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/img_circle_graw_ts"
+                    android:layout_width="19dp"
+                    android:layout_height="@dimen/_19dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginRight="@dimen/_20dp"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:background="@drawable/shape_10_conrner_solid_ffffff"
+            android:layout_marginTop="@dimen/_15dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="@dimen/_50dp">
+
+            <TextView
+                android:textColor="@color/color_333333"
+                android:textSize="14.5dp"
+                android:text="设置默认提现银行卡"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_20dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            
+            <ImageView
+            android:id="@+id/img_yes"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/img_circle_ok"
+            android:layout_width="@dimen/_17dp"
+            android:layout_height="@dimen/_17dp" />
+
+            <TextView
+                android:text="是"
+                android:textSize="13.5dp"
+                android:textColor="@color/color_333333"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_30dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/img_no"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/img_circle_ok_no"
+                android:layout_width="@dimen/_17dp"
+                android:layout_height="@dimen/_17dp" />
+
+            <TextView
+                android:text="否"
+                android:textSize="13.5dp"
+                android:textColor="@color/color_333333"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:text="同意协议并验证"
+            android:layout_marginTop="@dimen/_50dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_17dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/shape_2_conrner_solid_dddddd"
+            android:layout_width="295dp"
+            android:layout_height="@dimen/_45dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

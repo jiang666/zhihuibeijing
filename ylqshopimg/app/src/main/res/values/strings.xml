@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">测试</string>
+    <string name="str_login_app" translatable="false">测试</string>
+    <string name="str_phone_num">手机号</string>
+    <string name="str_input_phone_num">请输入手机号</string>
+    <string name="str_input_password">请输入密码</string>
+    <string name="str_password">密码</string>
+    <string name="str_loginin">登录</string>
+    <string name="str_power_code">验证码</string>
+    <string name="str_next">下一步</string>
+    <string name="str_cz_your_password">重置您的密码</string>
+    <string name="str_new_password">新密码</string>
+    <string name="str_true_fix_password">确认修改</string>
+    <string name="rule_password">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="str_password_loginin">用密码登录</string>
+    <string name="str_together">测试</string>
+    <string name="str_shop_name">店铺名称</string>
+    <string name="str_shop_phone">门店电话</string>
+    <string name="str_shop_type">经营类别</string>
+    <string name="str_shop_address">所在地区</string>
+    <string name="str_shop_address_de">详细地址</string>
+    <string name="str_shop_address_map">地图上的位置</string>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/include_no_net"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="102.2dp"
+        android:layout_height="131.2dp"
+        android:layout_marginTop="@dimen/_45dp"
+        android:src="@drawable/img_has_no_net" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:textSize="@dimen/_15dp"
+        android:textColor="@color/color_999999"
+        android:layout_marginTop="31dp"
+        android:text="啊哦，  网络不太顺畅哦~ \n请检查您的网络链接" />
+
+    <Button
+        android:layout_marginTop="150dp"
+        android:id="@+id/bt_refreshApi"
+        android:layout_width="205dp"
+        android:layout_height="@dimen/_45dp"
+        android:textSize="@dimen/_16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_15dp"
+        android:background="@drawable/shape_2_conrner_solid_ffa531"
+        android:text="重新加载试试"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/ll_deal_way"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="解决方案"
+            android:textColor="@color/color_999999"
+            android:textSize="13.5dp" />
+
+        <ImageView
+            android:layout_width="6.5dp"
+            android:layout_height="11.5dp"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:src="@drawable/img_graw_more" />
+    </LinearLayout>
+
+</LinearLayout>

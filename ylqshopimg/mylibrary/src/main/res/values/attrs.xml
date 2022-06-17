@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--CircleImageView-->
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <!--tab-->
+    <declare-styleable name="CaterpillarIndicator">
+        <attr name="slide_text_color" format="color|reference" />
+        <attr name="slide_text_size_normal" format="dimension" />
+        <attr name="slide_text_size_selected" format="dimension" />
+        <attr name="slide_text_color_normal" format="color" />
+        <attr name="slide_text_color_selected" format="color" />
+        <attr name="slide_footer_line_height" format="dimension" />
+        <attr name="slide_footer_color" format="color" />
+        <attr name="slide_round" format="boolean" />
+        <attr name="slide_item_width" format="dimension" />
+        <attr name="slide_caterpillar" format="boolean" />
+        <attr name="slide_count" format="integer" />
+        <attr name="slide_padding_bottom" format="dimension" />
+        <attr name="slide_text_center_flag">
+            <enum name="textCenter" value="0" />
+            <enum name="lineCenter" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

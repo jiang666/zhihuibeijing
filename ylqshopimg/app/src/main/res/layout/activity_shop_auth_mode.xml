@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".ui.act.shopinfo.shopauth.ShopAuthModeActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_back"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:text="图片要求"
+            android:textStyle="bold"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        android:background="@color/color_f7f7f7"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:text="拍照实例：企业"
+                android:textSize="13.5dp"
+                android:textColor="@color/color_333333"
+                android:layout_width="match_parent"
+                android:layout_height="52dp" />
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="@dimen/_190dp"
+                android:src="@drawable/img_zz_top" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:text="拍照实例：个体户"
+                android:textSize="13.5dp"
+                android:textColor="@color/color_333333"
+                android:layout_width="match_parent"
+                android:layout_height="52dp" />
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="@dimen/_190dp"
+                android:src="@drawable/img_zz_bottom" />
+
+            <TextView
+                android:text="1.照片需清晰、完整，露出国徽和印章"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:textColor="@color/color_999999"
+                android:layout_marginTop="@dimen/_17dp"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/_13dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="@dimen/_13dp"
+                android:textColor="@color/color_999999"
+                android:text="2.仅支持营业执照原件，不支持其他证件代替（如许可证）"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_marginTop="@dimen/_2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_up_pic"
+                android:text="去上传营业执照"
+                android:layout_marginTop="39dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/_50dp"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/shape_2_conrner_solid_ffa531"
+                android:layout_width="335dp"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

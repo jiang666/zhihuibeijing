@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".ui.act.setting.fixphone.InputNewPhoneActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_back"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:text="更换登录手机号"
+            android:textStyle="bold"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="15dp"
+            android:text="更换手机号后，将使用新手机号登录"
+            android:textColor="@color/color_333333"
+            android:layout_marginTop="98dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_40dp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_40dp"
+            android:layout_marginLeft="@dimen/_40dp"
+            android:layout_marginRight="@dimen/_20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="@dimen/_60dp">
+
+            <TextView
+                android:text="新手机号"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/_16dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            
+            <EditText
+                android:id="@+id/et_phone_num"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:textSize="@dimen/_16dp"
+                android:textColor="@color/color_333333"
+                android:textColorHint="@color/color_999999"
+                android:hint="请输入新手机号"
+                android:maxLength="11"
+                android:inputType="number"
+                android:singleLine="true"
+                android:background="@null"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_true_fix"
+            android:text="确认修改"
+            android:layout_marginTop="@dimen/_50dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_17dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/shape_2_conrner_solid_dddddd"
+            android:layout_width="295dp"
+            android:layout_height="@dimen/_45dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_bg"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_0dp"
+        android:layout_weight="1"/>
+
+    <!--输入密码-->
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/ll_input_password"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="222dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/color_dbdbdb"
+            android:layout_height="0.5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55dp">
+
+            <TextView
+                android:id="@+id/tv_1"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/_16dp"
+                android:textStyle="bold"
+                android:text="1"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:background="@color/color_dbdbdb"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/_16dp"
+                android:textStyle="bold"
+                android:text="2"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:background="@color/color_dbdbdb"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_3"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/_16dp"
+                android:textStyle="bold"
+                android:text="3"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/color_dbdbdb"
+            android:layout_height="0.5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55dp">
+
+            <TextView
+                android:id="@+id/tv_4"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/_16dp"
+                android:textStyle="bold"
+                android:text="4"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:background="@color/color_dbdbdb"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_5"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/_16dp"
+                android:textStyle="bold"
+                android:text="5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:background="@color/color_dbdbdb"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_6"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/_16dp"
+                android:textStyle="bold"
+                android:text="6"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/color_dbdbdb"
+            android:layout_height="0.5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55dp">
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/_16dp"
+                android:textStyle="bold"
+                android:text="7"
+                android:id="@+id/tv_7"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:background="@color/color_dbdbdb"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_8"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/_16dp"
+                android:textStyle="bold"
+                android:text="8"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:background="@color/color_dbdbdb"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_9"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/_16dp"
+                android:textStyle="bold"
+                android:text="9"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/color_dbdbdb"
+            android:layout_height="0.5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55dp">
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/_16dp"
+                android:background="@color/color_dddddd"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:background="@color/color_dbdbdb"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_0"
+                android:gravity="center"
+                android:textColor="@color/color_333333"
+                android:textSize="@dimen/_16dp"
+                android:textStyle="bold"
+                android:text="0"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="0.5dp"
+                android:background="@color/color_dbdbdb"
+                android:layout_height="match_parent" />
+
+            <RelativeLayout
+                android:id="@+id/rl_delect"
+                android:gravity="center"
+                android:background="@color/color_dddddd"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_input_password_close"
+                    android:layout_width="@dimen/_30dp"
+                    android:layout_height="@dimen/_19dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.act.shopinfo.HomeShopInfoActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_back"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:text="商户信息"
+            android:textStyle="bold"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_f7f7f7"
+        android:orientation="vertical">
+
+        <!--实名认证-->
+        <RelativeLayout
+            android:id="@+id/rl_smrz"
+            android:layout_margin="@dimen/_20dp"
+            android:background="@drawable/shape_10_conrner_solid_ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_info_smrz"
+                android:layout_width="@dimen/_21dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:text="店主实名认证"
+                android:textSize="14.5dp"
+                android:textColor="@color/color_333333"
+                android:layout_marginLeft="@dimen/_8dp"
+                android:layout_toRightOf="@+id/img1"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/more1"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_more"
+                android:layout_width="@dimen/_8dp"
+                android:layout_height="@dimen/_15dp" />
+
+            <TextView
+                android:id="@+id/tv_name_auth"
+                android:layout_toLeftOf="@+id/more1"
+                android:textColor="@color/color_2ebe40"
+                android:text=""
+                android:layout_marginRight="@dimen/_11dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <!--执照认证-->
+        <RelativeLayout
+            android:id="@+id/rl_zzrz"
+            android:layout_marginRight="@dimen/_20dp"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:background="@drawable/shape_10_conrner_solid_ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp">
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_info_zzrz"
+                android:layout_width="@dimen/_21dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:text="营业执照认证"
+                android:textSize="14.5dp"
+                android:textColor="@color/color_333333"
+                android:layout_marginLeft="@dimen/_8dp"
+                android:layout_toRightOf="@+id/img2"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/more2"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_more"
+                android:layout_width="@dimen/_8dp"
+                android:layout_height="@dimen/_15dp" />
+
+            <TextView
+                android:id="@+id/tv_zz_auth"
+                android:layout_toLeftOf="@+id/more2"
+                android:textColor="@color/color_2ebe40"
+                android:layout_marginRight="@dimen/_11dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <!--基本信息-->
+        <RelativeLayout
+            android:id="@+id/rl_shop_info"
+            android:layout_marginRight="@dimen/_20dp"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:background="@drawable/shape_10_conrner_solid_ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_info_shop"
+                android:layout_width="@dimen/_21dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:text="基本信息"
+                android:textSize="14.5dp"
+                android:textColor="@color/color_333333"
+                android:layout_marginLeft="@dimen/_8dp"
+                android:layout_toRightOf="@+id/img3"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/more3"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_more"
+                android:layout_width="@dimen/_8dp"
+                android:layout_height="@dimen/_15dp" />
+
+        </RelativeLayout>
+
+        <!--提现银行卡-->
+        <RelativeLayout
+            android:id="@+id/rl_tx"
+            android:layout_marginRight="@dimen/_20dp"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:background="@drawable/shape_10_conrner_solid_ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp">
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_info_tx"
+                android:layout_width="@dimen/_21dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:text="提现银行卡"
+                android:textSize="14.5dp"
+                android:textColor="@color/color_333333"
+                android:layout_marginLeft="@dimen/_8dp"
+                android:layout_toRightOf="@+id/img4"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/more4"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_more"
+                android:layout_width="@dimen/_8dp"
+                android:layout_height="@dimen/_15dp" />
+
+            <TextView
+                android:layout_toLeftOf="@+id/more4"
+                android:textColor="@color/color_ffa531"
+                android:text="验证有效"
+                android:layout_marginRight="@dimen/_11dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <!--签约信息-->
+        <RelativeLayout
+            android:id="@+id/rl_info_qy"
+            android:layout_marginRight="@dimen/_20dp"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:layout_marginLeft="@dimen/_20dp"
+            android:background="@drawable/shape_10_conrner_solid_ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50dp">
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_info_qy"
+                android:layout_width="@dimen/_21dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:text="签约信息"
+                android:textSize="14.5dp"
+                android:textColor="@color/color_333333"
+                android:layout_marginLeft="@dimen/_8dp"
+                android:layout_toRightOf="@+id/img5"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/more5"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_black_more"
+                android:layout_width="@dimen/_8dp"
+                android:layout_height="@dimen/_15dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

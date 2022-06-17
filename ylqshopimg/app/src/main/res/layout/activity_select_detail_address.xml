@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.act.togetherrequest.SelectDetailAddressActivity">
+
+    <RelativeLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_19dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:src="@drawable/img_black_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:text="选择位置"
+            android:textColor="@color/color_010101"
+            android:textSize="16.5dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.amap.api.maps2d.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/img_location"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:src="@drawable/img_location_address"
+            android:layout_width="21.5dp"
+            android:layout_height="31dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:background="@color/white"
+        android:id="@+id/tv_address"
+        android:paddingLeft="@dimen/_15dp"
+        android:textColor="@color/color_333333"
+        android:textSize="@dimen/_15dp"
+        android:visibility="gone"
+        android:paddingRight="@dimen/_15dp"
+        android:maxLines="2"
+        android:gravity="center_vertical"
+        android:layout_above="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50dp" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_view"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_10_conrner_solid_ffffff_top"
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+        
+        <TextView
+            android:id="@+id/tv_true"
+            android:text="确认"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:background="@drawable/shape_2_conrner_solid_ffa531"
+            android:layout_width="295dp"
+            android:layout_height="@dimen/_45dp" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>
