@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="New Text"
+            android:id="@+id/Itemtitle" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textSize="10sp"
+            android:id="@+id/Itemtext"
+            android:layout_below="@+id/Itemtitle"/>
+        <View
+            android:background="@color/colorAccent"
+            android:layout_height="60dp"
+            android:layout_width="1dp"
+            />
+        <LinearLayout
+            android:id="@+id/rlTimeline"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvTopLine"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="0.5dp"
+                    android:background="#999" />
+
+                <TextView
+                    android:id="@+id/tvDot"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_below="@id/tvTopLine"
+                    android:background="@drawable/timelline_dot_normal" />
+
+                <TextView
+                    android:id="@+id/tvBottomLine"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/tvDot"
+                    android:background="#999" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            android:textSize="10sp"
+            android:id="@+id/ItemtextTime"
+            android:layout_below="@+id/Itemtitle"/>
+
+</LinearLayout>
