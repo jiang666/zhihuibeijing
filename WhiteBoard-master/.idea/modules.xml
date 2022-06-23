@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WhiteBoard-master.iml" filepath="$PROJECT_DIR$/WhiteBoard-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WhiteBoard-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WhiteBoard-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/whiteboardlib/WhiteBoard-master.whiteboardlib.iml" filepath="$PROJECT_DIR$/.idea/modules/whiteboardlib/WhiteBoard-master.whiteboardlib.iml" />
+    </modules>
+  </component>
+</project>
