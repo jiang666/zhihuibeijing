@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MoveView">
+        <attr name="MovePathColor" format="color" />
+        <attr name="MoveDrawableRes" format="reference" />
+        <attr name="MoveDuration" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tl_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".SudukuActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:drawable/divider_horizontal_bright"
+        android:orientation="vertical"
+        android:showDividers="middle|beginning|end">
+
+        <TableRow android:id="@+id/tr_1"
+            android:divider="@android:drawable/divider_horizontal_bright"
+            android:showDividers="middle">
+
+            <include layout="@layout/layout_suduku" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/tr_2"
+            android:divider="@android:drawable/divider_horizontal_bright"
+            android:showDividers="middle">
+
+            <include layout="@layout/layout_suduku" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/tr_3"
+            android:divider="@android:drawable/divider_horizontal_bright"
+            android:showDividers="middle">
+
+            <include layout="@layout/layout_suduku" />
+
+        </TableRow>
+
+
+        <TableRow android:id="@+id/tr_4"
+            android:divider="@android:drawable/divider_horizontal_bright"
+            android:showDividers="middle">
+
+            <include layout="@layout/layout_suduku" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/tr_5"
+            android:divider="@android:drawable/divider_horizontal_bright"
+            android:showDividers="middle">
+
+            <include layout="@layout/layout_suduku" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/tr_6"
+            android:divider="@android:drawable/divider_horizontal_bright"
+            android:showDividers="middle">
+
+            <include layout="@layout/layout_suduku" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/tr_7"
+            android:divider="@android:drawable/divider_horizontal_bright"
+            android:showDividers="middle">
+
+            <include layout="@layout/layout_suduku" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/tr_8"
+            android:divider="@android:drawable/divider_horizontal_bright"
+            android:showDividers="middle">
+
+            <include layout="@layout/layout_suduku" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/tr_9"
+            android:divider="@android:drawable/divider_horizontal_bright"
+            android:showDividers="middle">
+
+            <include layout="@layout/layout_suduku" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_generate_easy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableLayout"
+        android:text="简单难度！"
+        android:layout_alignParentStart="true">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_generate_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_generate_easy"
+        android:text="中等难度！"
+        android:layout_alignParentStart="true">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_generate_hard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_generate_middle"
+        android:text="困难难度！"
+        android:layout_alignParentStart="true">
+    </Button>
+
+    <com.hao.diyviewpracticedemo.view.FadeInTextView
+        android:id="@+id/tv_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="@android:color/holo_purple"
+        android:layout_below="@+id/tableLayout"
+        android:layout_toStartOf="@+id/btn_answer"
+        android:layout_toEndOf="@+id/btn_generate_middle">
+
+    </com.hao.diyviewpracticedemo.view.FadeInTextView>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableLayout"
+        android:text="验证"
+        android:layout_alignParentEnd="true">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_confirm"
+        android:text="答案"
+        android:layout_alignParentEnd="true">
+
+    </Button>
+
+</RelativeLayout>
