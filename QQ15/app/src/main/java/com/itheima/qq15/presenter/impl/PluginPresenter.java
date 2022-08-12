@@ -1,10 +1,8 @@
 package com.itheima.qq15.presenter.impl;
 
-import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
 import com.itheima.qq15.listener.CallBackListener;
-import com.itheima.qq15.presenter.PluginPresenter;
-import com.itheima.qq15.utils.ThreadUtils;
+import com.itheima.qq15.presenter.IPluginPresenter;
 import com.itheima.qq15.view.PluginView;
 
 /**
@@ -13,11 +11,11 @@ import com.itheima.qq15.view.PluginView;
  * 网址：http://www.itheima.com
  */
 
-public class PluginPresenterImpl implements PluginPresenter {
+public class PluginPresenter implements IPluginPresenter {
 
     private PluginView mPluginView;
 
-    public PluginPresenterImpl(PluginView pluginView) {
+    public PluginPresenter(PluginView pluginView) {
         mPluginView = pluginView;
     }
 

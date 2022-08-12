@@ -16,8 +16,8 @@ import android.widget.TextView;
 import com.hyphenate.chat.EMMessage;
 import com.itheima.qq15.R;
 import com.itheima.qq15.adapter.ChatAdapter;
-import com.itheima.qq15.presenter.ChatPresenter;
-import com.itheima.qq15.presenter.impl.ChatPresenterImpl;
+import com.itheima.qq15.presenter.IChatPresenter;
+import com.itheima.qq15.presenter.impl.ChatPresenter;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -28,9 +28,6 @@ import java.util.List;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
-
-import static android.R.id.message;
-import static cn.bmob.v3.datatype.a.acknowledge.I;
 
 public class ChatActivity extends BaseActivity implements TextWatcher,ChatView {
 
@@ -45,7 +42,7 @@ public class ChatActivity extends BaseActivity implements TextWatcher,ChatView {
     @InjectView(R.id.btn_send)
     Button mBtnSend;
 
-    private ChatPresenter mChatPresenter;
+    private IChatPresenter mChatPresenter;
     private String mUsername;
     private ChatAdapter mChatAdapter;
 
@@ -74,7 +71,7 @@ public class ChatActivity extends BaseActivity implements TextWatcher,ChatView {
         }else {
             mBtnSend.setEnabled(true);
         }
-        mChatPresenter = new ChatPresenterImpl(this);
+        mChatPresenter = new ChatPresenter(this);
         /**
          * 显示最多最近的20条聊天记录，然后定位RecyclerView到最后一行
          */

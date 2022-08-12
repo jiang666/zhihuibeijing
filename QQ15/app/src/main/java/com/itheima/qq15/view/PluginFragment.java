@@ -1,7 +1,6 @@
 package com.itheima.qq15.view;
 
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -13,13 +12,9 @@ import android.widget.Button;
 import com.hyphenate.chat.EMClient;
 import com.itheima.qq15.MainActivity;
 import com.itheima.qq15.R;
-import com.itheima.qq15.presenter.PluginPresenter;
-import com.itheima.qq15.presenter.impl.PluginPresenterImpl;
+import com.itheima.qq15.presenter.IPluginPresenter;
+import com.itheima.qq15.presenter.impl.PluginPresenter;
 import com.itheima.qq15.utils.ToastUtils;
-
-import butterknife.ButterKnife;
-import butterknife.InjectView;
-import butterknife.OnClick;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,7 +22,7 @@ import butterknife.OnClick;
 public class PluginFragment extends BaseFragment implements View.OnClickListener,PluginView {
 
     private Button mBtnLogout;
-    private PluginPresenter mPluginPresenter;
+    private IPluginPresenter mPluginPresenter;
     private ProgressDialog mProgressDialog;
 
     @Override
@@ -47,7 +42,7 @@ public class PluginFragment extends BaseFragment implements View.OnClickListener
         mBtnLogout.setText("退（"+currentUser+"）出");
         mBtnLogout.setOnClickListener(this);
         //对象的手动注入
-        mPluginPresenter = new PluginPresenterImpl(this);
+        mPluginPresenter = new PluginPresenter(this);
     }
 
     @Override

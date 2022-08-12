@@ -1,11 +1,10 @@
 package com.itheima.qq15.presenter.impl;
 
-import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMConversation;
 import com.hyphenate.chat.EMMessage;
 import com.itheima.qq15.listener.CallBackListener;
-import com.itheima.qq15.presenter.ChatPresenter;
+import com.itheima.qq15.presenter.IChatPresenter;
 import com.itheima.qq15.view.ChatView;
 
 import java.util.ArrayList;
@@ -18,12 +17,12 @@ import java.util.List;
  * 网址：http://www.itheima.com
  */
 
-public class ChatPresenterImpl implements ChatPresenter {
+public class ChatPresenter implements IChatPresenter {
 
     private ChatView mChatView;
     private List<EMMessage> mEMMessageList = new ArrayList<>();
 
-    public ChatPresenterImpl(ChatView chatView) {
+    public ChatPresenter(ChatView chatView) {
         mChatView = chatView;
     }
 

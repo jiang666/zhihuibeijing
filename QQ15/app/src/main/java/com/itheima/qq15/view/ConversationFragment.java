@@ -17,8 +17,8 @@ import com.hyphenate.chat.EMMessage;
 import com.itheima.qq15.MainActivity;
 import com.itheima.qq15.R;
 import com.itheima.qq15.adapter.ConversationAdapter;
-import com.itheima.qq15.presenter.ConversationPresenter;
-import com.itheima.qq15.presenter.impl.ConversationPresenterImpl;
+import com.itheima.qq15.presenter.IConversationPresenter;
+import com.itheima.qq15.presenter.impl.ConversationPresenter;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -33,7 +33,7 @@ public class ConversationFragment extends BaseFragment implements View.OnClickLi
 
     private RecyclerView mRecyclerView;
     private FloatingActionButton mFab;
-    private ConversationPresenter mConversationPresenter;
+    private IConversationPresenter mConversationPresenter;
     private ConversationAdapter mConversationAdapter;
 
     @Override
@@ -52,7 +52,7 @@ public class ConversationFragment extends BaseFragment implements View.OnClickLi
         /**
          *  初始化会话列表
          */
-        mConversationPresenter = new ConversationPresenterImpl(this);
+        mConversationPresenter = new ConversationPresenter(this);
         mConversationPresenter.initConversation();
         EventBus.getDefault().register(this);
     }

@@ -1,13 +1,9 @@
 package com.itheima.qq15.presenter.impl;
 
-import android.content.Context;
-import android.hardware.camera2.params.Face;
-
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.exceptions.HyphenateException;
-import com.itheima.qq15.db.ContactSQLiteOpenHelper;
 import com.itheima.qq15.db.DBUtils;
-import com.itheima.qq15.presenter.ContactPresenter;
+import com.itheima.qq15.presenter.IContactPresenter;
 import com.itheima.qq15.utils.ThreadUtils;
 import com.itheima.qq15.view.ContactView;
 
@@ -23,11 +19,11 @@ import java.util.TreeMap;
  * 网址：http://www.itheima.com
  */
 
-public class ContactPresenterImpl implements ContactPresenter {
+public class ContactPresenter implements IContactPresenter {
     private ContactView mContactView;
     private List<String> contactList = new ArrayList<>();
 
-    public ContactPresenterImpl(ContactView contactView) {
+    public ContactPresenter(ContactView contactView) {
         mContactView = contactView;
     }
 

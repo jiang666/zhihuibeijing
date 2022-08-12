@@ -1,6 +1,5 @@
 package com.itheima.qq15.view;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
@@ -15,7 +14,7 @@ import com.itheima.qq15.R;
 import com.itheima.qq15.adapter.ContactAdapter;
 import com.itheima.qq15.event.OnContactUpdateEvent;
 import com.itheima.qq15.presenter.ContactPresenter;
-import com.itheima.qq15.presenter.impl.ContactPresenterImpl;
+import com.itheima.qq15.presenter.impl.ContactPresenter;
 import com.itheima.qq15.utils.ToastUtils;
 import com.itheima.qq15.widget.ContactLayout;
 
@@ -44,7 +43,7 @@ public class ContactFragment extends BaseFragment implements ContactView, SwipeR
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         mContactLayout = (ContactLayout) view.findViewById(R.id.contactLayout);
-        mContactPresenter = new ContactPresenterImpl(this);
+        mContactPresenter = new ContactPresenter(this);
         /**
          * 初始化联系人界面
          */

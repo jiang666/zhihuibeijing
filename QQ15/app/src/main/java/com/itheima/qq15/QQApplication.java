@@ -92,7 +92,7 @@ public class QQApplication extends Application {
 
     private void initHuanxin() {
         EMOptions options = new EMOptions();
-        // 默认添加好友时，是不需要验证的，改成需要验证
+        // 默认添加好友时，是不需要HorzProgressView验证的，改成需要验证
         options.setAcceptInvitationAlways(false);
         /**
          * 下面的代码是为了避免环信被初始化2次

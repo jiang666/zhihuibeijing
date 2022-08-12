@@ -6,6 +6,6 @@ package com.itheima.qq15.presenter;
  * 网址：http://www.itheima.com
  */
 
-public interface LoginPresenter {
+public interface ILoginPresenter {
     void login(String username,String pwd);
 }

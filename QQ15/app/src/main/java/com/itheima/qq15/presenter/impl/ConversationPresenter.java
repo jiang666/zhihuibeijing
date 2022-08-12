@@ -2,11 +2,10 @@ package com.itheima.qq15.presenter.impl;
 
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMConversation;
-import com.itheima.qq15.presenter.ConversationPresenter;
+import com.itheima.qq15.presenter.IConversationPresenter;
 import com.itheima.qq15.view.ConversationView;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -18,11 +17,11 @@ import java.util.Map;
  * 网址：http://www.itheima.com
  */
 
-public class ConversationPresenterImpl implements ConversationPresenter {
+public class ConversationPresenter implements IConversationPresenter {
     private ConversationView mConversationView;
     private List<EMConversation> mEMConversationList = new ArrayList<>();
 
-    public ConversationPresenterImpl(ConversationView conversationView) {
+    public ConversationPresenter(ConversationView conversationView) {
         mConversationView = conversationView;
     }
 

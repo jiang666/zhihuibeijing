@@ -6,7 +6,7 @@ package com.itheima.qq15.presenter;
  * 网址：http://www.itheima.com
  */
 
-public interface ContactPresenter {
+public interface IContactPresenter {
     void initContacts();
 
     void updateContacts();

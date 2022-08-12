@@ -1,12 +1,10 @@
 package com.itheima.qq15.presenter.impl;
 
-import android.media.tv.TvView;
-
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.exceptions.HyphenateException;
 import com.itheima.qq15.db.DBUtils;
 import com.itheima.qq15.model.User;
-import com.itheima.qq15.presenter.AddFriendPresenter;
+import com.itheima.qq15.presenter.IAddFriendPresenter;
 import com.itheima.qq15.utils.ThreadUtils;
 import com.itheima.qq15.view.AddFriendView;
 
@@ -22,11 +20,11 @@ import cn.bmob.v3.listener.FindListener;
  * 网址：http://www.itheima.com
  */
 
-public class AddFriendPresenterImpl implements AddFriendPresenter {
+public class AddFriendPresenter implements IAddFriendPresenter {
 
     private AddFriendView mAddFriendView;
 
-    public AddFriendPresenterImpl(AddFriendView addFriendView) {
+    public AddFriendPresenter(AddFriendView addFriendView) {
         mAddFriendView = addFriendView;
     }
 

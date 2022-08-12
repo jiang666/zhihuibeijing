@@ -2,10 +2,10 @@ package com.itheima.qq15.presenter;
 
 /**
  * 作者： itheima
- * 时间：2016-10-15 10:50
+ * 时间：2016-10-19 11:56
  * 网址：http://www.itheima.com
  */
 
-public interface SplashPresenter {
-    void checkLogined();
+public interface IConversationPresenter {
+    void initConversation();
 }

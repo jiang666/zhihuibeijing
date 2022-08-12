@@ -14,8 +14,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.itheima.qq15.R;
-import com.itheima.qq15.presenter.RegistPresenter;
-import com.itheima.qq15.presenter.impl.RegistPresenterImpl;
+import com.itheima.qq15.presenter.IRegistPresenter;
+import com.itheima.qq15.presenter.impl.RegistPresenter;
 import com.itheima.qq15.utils.StringUtils;
 
 import butterknife.ButterKnife;
@@ -35,7 +35,7 @@ public class RegistActivity extends BaseActivity implements TextView.OnEditorAct
     @InjectView(R.id.btn_regist)
     Button mBtnRegist;
 
-    private RegistPresenter mRegistPresenter;
+    private IRegistPresenter mRegistPresenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +56,7 @@ public class RegistActivity extends BaseActivity implements TextView.OnEditorAct
 
         setContentView(R.layout.activity_regist);
         ButterKnife.inject(this);
-        mRegistPresenter = new RegistPresenterImpl(this);
+        mRegistPresenter = new RegistPresenter(this);
         //给UI绑定事件
         mEtPwd.setOnEditorActionListener(this);
     }

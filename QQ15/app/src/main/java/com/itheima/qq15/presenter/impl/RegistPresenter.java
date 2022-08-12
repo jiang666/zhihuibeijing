@@ -3,8 +3,7 @@ package com.itheima.qq15.presenter.impl;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.exceptions.HyphenateException;
 import com.itheima.qq15.model.User;
-import com.itheima.qq15.presenter.RegistPresenter;
-import com.itheima.qq15.utils.StringUtils;
+import com.itheima.qq15.presenter.IRegistPresenter;
 import com.itheima.qq15.utils.ThreadUtils;
 import com.itheima.qq15.view.RegistView;
 
@@ -17,11 +16,11 @@ import cn.bmob.v3.listener.SaveListener;
  * 网址：http://www.itheima.com
  */
 
-public class RegistPresenterImpl implements RegistPresenter {
+public class RegistPresenter implements IRegistPresenter {
 
     private RegistView mRegistView;
 
-    public RegistPresenterImpl(RegistView registView) {
+    public RegistPresenter(RegistView registView) {
         mRegistView = registView;
     }
 

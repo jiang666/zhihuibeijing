@@ -1,7 +1,5 @@
 package com.itheima.qq15.view;
 
-import android.app.SearchManager;
-import android.app.SearchableInfo;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.LinearLayoutManager;
@@ -17,12 +15,10 @@ import android.widget.ImageView;
 
 import com.itheima.qq15.R;
 import com.itheima.qq15.adapter.AddFriendAdapter;
-import com.itheima.qq15.db.DBUtils;
 import com.itheima.qq15.model.User;
-import com.itheima.qq15.presenter.AddFriendPresenter;
-import com.itheima.qq15.presenter.impl.AddFriendPresenterImpl;
+import com.itheima.qq15.presenter.IAddFriendPresenter;
+import com.itheima.qq15.presenter.impl.AddFriendPresenter;
 
-import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
 import butterknife.ButterKnife;
@@ -37,7 +33,7 @@ public class AddFriendActivity extends BaseActivity implements SearchView.OnQuer
     @InjectView(R.id.recyclerView)
     RecyclerView mRecyclerView;
 
-    private AddFriendPresenter mAddFriendPresenter;
+    private IAddFriendPresenter mAddFriendPresenter;
     private SearchView mSearchView;
 
     @Override
@@ -48,7 +44,7 @@ public class AddFriendActivity extends BaseActivity implements SearchView.OnQuer
         mToolbar.setTitle("搜好友");
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        mAddFriendPresenter = new AddFriendPresenterImpl(this);
+        mAddFriendPresenter = new AddFriendPresenter(this);
     }
 
     @Override

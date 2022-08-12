@@ -20,8 +20,8 @@ import android.widget.TextView;
 
 import com.itheima.qq15.MainActivity;
 import com.itheima.qq15.R;
-import com.itheima.qq15.presenter.LoginPresenter;
-import com.itheima.qq15.presenter.impl.LoginPresenterImpl;
+import com.itheima.qq15.presenter.ILoginPresenter;
+import com.itheima.qq15.presenter.impl.LoginPresenter;
 import com.itheima.qq15.utils.StringUtils;
 
 import butterknife.ButterKnife;
@@ -45,7 +45,7 @@ public class LoginActivity extends BaseActivity implements TextView.OnEditorActi
     @InjectView(R.id.tv_newuser)
     TextView mTvNewuser;
 
-    private LoginPresenter mLoginPresenter;
+    private ILoginPresenter mLoginPresenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,7 +70,7 @@ public class LoginActivity extends BaseActivity implements TextView.OnEditorActi
         mEtPwd.setText(getPwd());
         mEtPwd.setOnEditorActionListener(this);
 
-        mLoginPresenter = new LoginPresenterImpl(this);
+        mLoginPresenter = new LoginPresenter(this);
     }
 
     /**

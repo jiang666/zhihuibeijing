@@ -1,7 +1,7 @@
 package com.itheima.qq15.presenter.impl;
 
 import com.hyphenate.chat.EMClient;
-import com.itheima.qq15.presenter.SplashPresenter;
+import com.itheima.qq15.presenter.ISplashPresenter;
 import com.itheima.qq15.view.SplashView;
 
 /**
@@ -10,11 +10,11 @@ import com.itheima.qq15.view.SplashView;
  * 网址：http://www.itheima.com
  */
 
-public class SplashPresenterImpl implements SplashPresenter {
+public class SplashPresenter implements ISplashPresenter {
 
     private SplashView mSplashView;
 
-    public SplashPresenterImpl(SplashView splashView) {
+    public SplashPresenter(SplashView splashView) {
         mSplashView = splashView;
     }
 

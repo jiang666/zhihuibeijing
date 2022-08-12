@@ -8,8 +8,8 @@ import android.widget.ImageView;
 
 import com.itheima.qq15.MainActivity;
 import com.itheima.qq15.R;
-import com.itheima.qq15.presenter.SplashPresenter;
-import com.itheima.qq15.presenter.impl.SplashPresenterImpl;
+import com.itheima.qq15.presenter.ISplashPresenter;
+import com.itheima.qq15.presenter.impl.SplashPresenter;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
@@ -17,7 +17,7 @@ import butterknife.InjectView;
 public class SplashActivity extends BaseActivity implements SplashView{
 
     private static final long DURATION = 2000;
-    private SplashPresenter mSplashPresenter;
+    private ISplashPresenter mSplashPresenter;
     @InjectView(R.id.iv_splash)
     ImageView mIvSplash;
 
@@ -27,7 +27,7 @@ public class SplashActivity extends BaseActivity implements SplashView{
         setContentView(R.layout.activity_splash);
         ButterKnife.inject(this);
 
-        mSplashPresenter = new SplashPresenterImpl(this);
+        mSplashPresenter = new SplashPresenter(this);
 
         /**
          * 1. 判断是否已经登录了
